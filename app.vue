@@ -1,18 +1,20 @@
 <template>
   <div class="bg-[#EBEBEB]">
     <Header />
-    <Hero />
+    <!-- <Hero />
     <DiscoverDetails />
     <DevelopBusiness />
     <FAQ />
     <Reviews />
     <MoreInfo />
-    <Partners />
+    <Partners /> -->
 
 
     <!-- Download Page -->
     <!-- <DownloadHero />
-     <AlreadyDownload /> -->
+     <AlreadyDownload />
+    <MoreInfo />
+    <Partners /> -->
     <Footer />
   </div>
 </template>
