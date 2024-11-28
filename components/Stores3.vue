@@ -1,0 +1,116 @@
+<template lang="">
+         <main class="flex-1 p-8">
+            <header class="flex  items-center">
+                <h1 class="text-2xl font-semibold text-gray-700">Stores</h1>
+
+                <!-- Number Line Section -->
+                <div class=" w-full flex justify-around items-center">
+                    <div
+                        class="w-10 h-10 bg-indigo-500 text-white rounded-full flex items-center justify-center font-bold">
+                        1</div>
+                    <div class="w-40 h-2 bg-indigo-500"></div>
+                    <div
+                        class="w-10 h-10 bg-indigo-500 text-white rounded-full flex items-center justify-center font-bold">
+                        2
+                    </div>
+                    <div class="w-40 h-2 bg-indigo-500"></div>
+                    <div
+                        class="w-10 h-10 bg-indigo-500  text-white rounded-full flex items-center justify-center font-bold">
+                        3</div>
+                    <div class="w-40 h-2 bg-white"></div>
+                    <div class="w-10 h-10 bg-white text-black rounded-full flex items-center justify-center font-bold">4
+                    </div>
+                </div>
+            </header>
+
+            <div class="mt-8 bg-white shadow rounded-md px-6">
+
+
+                <!-- Flex Layout for Form and Supporting Section -->
+                <div class="flex space-x-8">
+                    <!-- Form Section -->
+                    <div class="w-1/1 pb-[40px]">
+                        <h2 class="text-[1.4rem] font-bold text-gray-700 pt-[10px]">Let's catch your visitors' attention.</h2>
+                        <p class="text-[14px] text-gray-500">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy...
+                        </p>
+
+                        <form class="mt-4 ">
+                            <!-- Favicon -->
+                            <div>
+                                <label class="block text-[#656565] tracking-wider font-semibold">Fav-icon – Your tab favicon</label>
+                                <p class="text-[11px] text-[#B4B3B3]">Your favicon must be 16 × 16 </p>
+                                <div class="flex items-center border rounded-2xl bg-gray-50 px-4 py-3 mt-[10px]">
+                                    <div class=" text-center w-[100%]">
+                                        <img src="./akar-icons--download.svg" class="mx-auto h-[20px] w-[100px]" alt="">
+                                        <p class="text-gray-400 leading-[18px] mt-[4px] text-[14px]">Attach your favicon here<br>or<br><span class="text-[#C0ADF4]">Browse your favicon</span> </p>
+                                           
+                                    </div>
+                                </div>
+                                <div class="flex justify-end w-[100%] mt-[6px] ">
+                                    <img src="./solar--lock-linear.svg" class="mr-[6px]" alt="">
+                                <p class="text-sm text-[#C0ADF4] mt-[2px]">Secure</p>
+                            </div>
+                            </div>
+
+                            <!-- Logo -->
+                            <div class="mt-[0px]">
+                                <label class="block text-[#656565] tracking-wider font-semibold">Logo – Your visual identity</label>
+                                <p class="text-[11px] text-[#B4B3B3]">Your favicon must be 16 × 16 </p>
+                                <div class="flex items-center border rounded-2xl bg-gray-50 px-4 py-3 mt-[10px]">
+                                    <div class=" text-center w-[100%]">
+                                        <img src="./akar-icons--download.svg" class="mx-auto h-[20px] w-[100px]" alt="">
+                                        <p class="text-gray-400 leading-[18px] mt-[4px] text-[14px]">Attach your favicon here<br>or<br><span class="text-[#C0ADF4]">Browse your favicon</span> </p>
+                                           
+                                    </div>
+                                </div>
+                                <div class="flex justify-end w-[100%] mt-[6px] ">
+                                    <img src="./solar--lock-linear.svg" class="mr-[6px]" alt="">
+                                <p class="text-sm text-[#C0ADF4] mt-[2px]">Secure</p>
+                            </div>
+                            </div>
+
+                            <!-- Slogan -->
+                            <div>
+                                <label class="block text-[#656565] tracking-wider font-semibold">Slogan – Choose your Motto!</label>
+                                <input type="text"
+                                    class="mt-[10px] w-full px-4 py-6 bg-gray-100 border rounded-2xl focus:outline-none focus:ring focus:ring-indigo-300"
+                                    placeholder="">
+
+                                    <p class="text-[13px] mt-[6px] font-medium text-[#B4B3B3]">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+
+                             <!-- Buttons -->
+                             <div class="mt-8 flex justify-between">
+                                <button class="bg-gray-200 text-gray-700 px-6 py-4 hover:bg-gray-300 w-[30%] rounded-full ">Previous</button>
+                                <button class="bg-indigo-600 text-white px-6 py-4 hover:bg-indigo-500 w-[60%] rounded-full ">Next</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Supporting Section -->
+                    <div class="flex-1">
+                        <div class="w-[100%] flex justify-center mt-[300px]">
+                            <img src="./ci--image-02.svg" class="h-[40px]" alt="">
+
+                        </div>
+                        <div class="mt-[100px] p-4  rounded-lg border-2 ">
+                            <p class="font-bold text-[1.4rem]">Communicate with your audience</p>
+                            <p class="text-[12px] text-gray-600 mt-[10px]">Lorem ipsum dolor sit amet, consectetur<br> amet consectetur adipisicing elit. Veniam non velit obcaecati <br> dolor incidunt praesentium dolor! Recusandae impedi </p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+        </main>
+</template>
+<script>
+export default {
+    
+}
+</script>
+<style lang="">
+    
+</style>
