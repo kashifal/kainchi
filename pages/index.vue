@@ -3,22 +3,22 @@
     <!-- <Header /> -->
     <!-- <Landing /> -->
     <!-- <Download /> -->
-    <!-- <AboutUs /> -->
+    <!-- <AboutUs />  -->
     <!-- <StartFree /> -->
-     <!-- <Test /> -->
-     <!-- <Company /> -->
-     <!-- <PrivacyPolicy /> -->
-      <!-- <Blog /> -->
-       <!-- <LastUpdate /> -->
-        <!-- <Email /> -->
-         <!-- <Password /> -->
-         <!-- <Username /> -->
-          <!-- <Dashboard /> -->
-           <!-- <Stores /> -->
-           <!-- <Categories /> -->
-           <!-- <StaffAccount /> -->
-           <!-- <Products /> -->
-           <Login />
+    <!-- <Test /> -->
+    <!-- <Company /> -->
+    <!-- <PrivacyPolicy /> -->
+    <!-- <Blog /> -->
+    <!-- <LastUpdate /> -->
+    <!-- <Email /> -->
+    <!-- <Password /> -->
+    <!-- <Username /> -->
+    <!-- <Dashboard /> -->
+    <Stores />
+    <!-- <Categories /> -->
+    <!-- <StaffAccount /> -->
+    <!-- <Products /> -->
+    <!-- <Login /> -->
     <!-- <MoreInfo /> -->
     <!-- <Partners /> -->
     <!-- <Footer /> -->

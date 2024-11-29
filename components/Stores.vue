@@ -1,21 +1,21 @@
 <template lang="">
       <main class="flex-1 p-8">
-            <header class="flex  items-center">
+            <header class="flex items-center">
                 <h1 class="text-2xl font-semibold text-gray-700">Stores</h1>
 
                 <!-- Number Line Section -->
-                <div class=" w-full flex justify-around items-center">
+                <div class="flex items-center justify-around w-full ">
                     <div
-                        class="w-10 h-10 bg-indigo-500 text-white rounded-full flex items-center justify-center font-bold">
+                        class="flex items-center justify-center w-10 h-10 font-bold text-white bg-indigo-500 rounded-full">
                         1</div>
                     <div class="w-40 h-2 bg-white"></div>
-                    <div class="w-10 h-10 bg-white text-black rounded-full flex items-center justify-center font-bold">2
+                    <div class="flex items-center justify-center w-10 h-10 font-bold text-black bg-white rounded-full">2
                     </div>
                     <div class="w-40 h-2 bg-white"></div>
-                    <div class="w-10 h-10 bg-white  text-black rounded-full flex items-center justify-center font-bold">
+                    <div class="flex items-center justify-center w-10 h-10 font-bold text-black bg-white rounded-full">
                         3</div>
                     <div class="w-40 h-2 bg-white"></div>
-                    <div class="w-10 h-10 bg-white text-black rounded-full flex items-center justify-center font-bold">4
+                    <div class="flex items-center justify-center w-10 h-10 font-bold text-black bg-white rounded-full">4
                     </div>
                 </div>
             </header>
@@ -23,7 +23,7 @@
 
 
 
-            <div class="mt-8 bg-white shadow rounded-md p-8">
+            <div class="p-8 mt-8 bg-white rounded-md shadow">
                 <!-- Flex Layout for Form and Manage Everything Section -->
                 <div class="flex space-x-8">
                     <!-- Form Section -->

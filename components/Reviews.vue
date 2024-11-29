@@ -1,9 +1,9 @@
 <template lang="">
-    <div class="grid md:grid-cols-2 max-w-7xl mx-auto px-4 gap-8">
+    <div class="grid gap-8 px-4 mx-auto md:grid-cols-2 max-w-7xl">
        <div>
            <h1 class="2xl:text-[94px] relative text-[6vw] text-[#212121] font-semibold leading-none">Real Reviews<br /> From Real 
             Customers  
-            <svg class=" absolute right-0 lg:right-[15%] -bottom-[10%] leading-none  size-[10vw] text-[#480CA8]" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m16.004 9.414l-8.607 8.607l-1.414-1.414L14.59 8H7.003V6h11v11h-2z"/></svg>
+            <svg class=" absolute right-0 xl:right-[0%] lg:right-[15%] -bottom-[10%] leading-none  size-[10vw] text-[#480CA8]" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m16.004 9.414l-8.607 8.607l-1.414-1.414L14.59 8H7.003V6h11v11h-2z"/></svg>
 
         </h1>
         <p class="text-[#212121] sm:text-[18px] py-10 lg:text-[22px]">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>

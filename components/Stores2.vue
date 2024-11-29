@@ -1,34 +1,34 @@
 <template lang="">
       <main class="flex-1 p-8">
-            <header class="flex  items-center">
+            <header class="flex items-center">
                 <h1 class="text-2xl font-semibold text-gray-700">Stores</h1>
 
                 <!-- Number Line Section -->
-                <div class=" w-full flex justify-around items-center">
+                <div class="flex items-center justify-around w-full ">
                     <div
-                        class="w-10 h-10 bg-indigo-500 text-white rounded-full flex items-center justify-center font-bold">
+                        class="flex items-center justify-center w-10 h-10 font-bold text-white bg-indigo-500 rounded-full">
                         1</div>
                     <div class="w-40 h-2 bg-indigo-500"></div>
-                    <div class="w-10 h-10 bg-indigo-500 text-white rounded-full flex items-center justify-center font-bold">2
+                    <div class="flex items-center justify-center w-10 h-10 font-bold text-white bg-indigo-500 rounded-full">2
                     </div>
                     <div class="w-40 h-2 bg-white"></div>
-                    <div class="w-10 h-10 bg-white  text-black rounded-full flex items-center justify-center font-bold">
+                    <div class="flex items-center justify-center w-10 h-10 font-bold text-black bg-white rounded-full">
                         3</div>
                     <div class="w-40 h-2 bg-white"></div>
-                    <div class="w-10 h-10 bg-white text-black rounded-full flex items-center justify-center font-bold">4
+                    <div class="flex items-center justify-center w-10 h-10 font-bold text-black bg-white rounded-full">4
                     </div>
                 </div>
             </header>
 
         
-            <div class="mt-8 bg-white shadow rounded-md p-8">
+            <div class="p-8 mt-8 bg-white rounded-md shadow">
                 
               
         
                 <!-- Flex Layout for Form and Supporting Section -->
                 <div class="flex space-x-8">
                     <!-- Supporting Section -->
-                    <div class="flex flex-col justify-between bg-gray-50 p-6 rounded-md w-1/2">
+                    <div class="flex flex-col justify-between w-1/2 p-6 rounded-md bg-gray-50">
                         <div class="w-[100%] flex justify-center mt-[170px]">
                             <img src="./ci--image-02.svg" class="h-[40px]" alt="">
 
@@ -63,7 +63,7 @@
                                 </div>
                             </div>
                         </form>
-                        <div class="mt-8 flex justify-between">
+                        <div class="flex justify-between mt-8">
                             <button class="bg-gray-200 text-gray-700 px-6 py-2 hover:bg-gray-300 w-[30%] rounded-full ">Previous</button>
                             <button class="bg-indigo-600 text-white px-6 py-2 hover:bg-indigo-500 w-[60%] rounded-full ">Next</button>
                         </div>

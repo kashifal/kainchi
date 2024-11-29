@@ -11,40 +11,40 @@
                 </div>
             </div>
             
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <div class="grid grid-cols-1 gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
                 
-                <div class="bg-white shadow rounded-lg p-2">
+                <div class="p-2 bg-white rounded-lg shadow">
                     <h3 class="text-[18px] font-bold text-gray-800 pl-[6px]">300</h3>
                     <p class="text-gray-500 pl-[6px]">Total Profiles</p>
                     <div class="flex mt-[50px] pl-[6px]">
                         <img src="./foundation--graph-bar.svg" class="w-[26px]" alt="">
-                        <p class="mt-2 text-green-600 text-sm font-medium">+125%</p>
+                        <p class="mt-2 text-sm font-medium text-green-600">+125%</p>
                     </div>
                 </div>
 
-                <div class="bg-white shadow rounded-lg p-2">
+                <div class="p-2 bg-white rounded-lg shadow">
           <h3 class="text-[18px] font-bold text-gray-800 pl-[6px]">205</h3>
           <p class="text-gray-500 pl-[6px]">Account Balance</p>
           <div class="flex mt-[50px] pl-[6px]">
             <img src="./foundation--graph-bar.svg" class="w-[26px]" alt="">
-          <p class="mt-2 text-green-600 text-sm font-medium">+50%</p>
+          <p class="mt-2 text-sm font-medium text-green-600">+50%</p>
         </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg p-2">
+        <div class="p-2 bg-white rounded-lg shadow">
             <h3 class="text-[18px] font-bold text-gray-800 pl-[6px] ">456</h3>
             <p class="text-gray-500 pl-[6px]">New Sales</p>
             <div class="flex mt-[50px] pl-[6px]">
               <img src="./foundation--graph-bar.svg" class="w-[26px]" alt="">
-            <p class="mt-2 text-red-600 text-sm font-medium">-12%</p>
+            <p class="mt-2 text-sm font-medium text-red-600">-12%</p>
           </div>
           </div>
-          <div class="bg-white shadow rounded-lg p-2">
+          <div class="p-2 bg-white rounded-lg shadow">
               <h3 class="text-[18px] font-bold text-gray-800 pl-[6px]">12</h3>
               <p class="text-gray-500 pl-[6px]">Pending Contacts</p>
               <div class="flex mt-[50px] pl-[6px]">
                 <img src="./foundation--graph-bar.svg" class="w-[26px]" alt="">
-              <p class="mt-2 text-green-600 text-sm font-medium">+29%</p>
+              <p class="mt-2 text-sm font-medium text-green-600">+29%</p>
             </div>
             </div>
                 
@@ -52,17 +52,17 @@
 
             
             <div>
-                <h3 class="text-xl font-bold text-gray-800 mb-6">Overview</h3>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <h3 class="mb-6 text-xl font-bold text-gray-800">Overview</h3>
+                <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
                     
-                    <div class="bg-white shadow rounded-lg p-6">
-                        <h4 class="text-lg font-medium text-gray-600 mb-4">Revenue <span class="text-[#92EBC2]">(1,038 Visits)</span></h4>
-                        <div class="h-32 bg-gray-50 rounded-lg"></div> 
+                    <div class="p-6 bg-white rounded-lg shadow">
+                        <h4 class="mb-4 text-lg font-medium text-gray-600">Revenue <span class="text-[#92EBC2]">(1,038 Visits)</span></h4>
+                        <div class="h-32 rounded-lg bg-gray-50"></div> 
                     </div>
                     
-                    <div class="bg-white shadow rounded-lg p-6">
-                        <h4 class="text-lg font-medium text-gray-600 mb-4">Traffic <span class="text-[#92EBC2]">(1,230 Visits)</span></h4>
-                        <div class="h-32 bg-gray-50 rounded-lg"></div> 
+                    <div class="p-6 bg-white rounded-lg shadow">
+                        <h4 class="mb-4 text-lg font-medium text-gray-600">Traffic <span class="text-[#92EBC2]">(1,230 Visits)</span></h4>
+                        <div class="h-32 rounded-lg bg-gray-50"></div> 
                     </div>
                 </div>
             </div>
