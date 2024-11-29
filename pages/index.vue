@@ -3,8 +3,24 @@
     <!-- <Header /> -->
     <!-- <Landing /> -->
     <!-- <Download /> -->
-    <!-- <AboutUs /> -->
+    <!-- <AboutUs />  -->
     <!-- <StartFree /> -->
+<<<<<<< HEAD
+    <!-- <Test /> -->
+    <!-- <Company /> -->
+    <!-- <PrivacyPolicy /> -->
+    <!-- <Blog /> -->
+    <!-- <LastUpdate /> -->
+    <!-- <Email /> -->
+    <!-- <Password /> -->
+    <!-- <Username /> -->
+    <!-- <Dashboard /> -->
+    <Stores />
+    <!-- <Categories /> -->
+    <!-- <StaffAccount /> -->
+    <!-- <Products /> -->
+    <!-- <Login /> -->
+=======
      <!-- <Test /> -->
      <!-- <Company /> -->
      <!-- <HelpCenter /> -->
@@ -21,6 +37,7 @@
            <!-- <StaffAccount /> -->
            <!-- <Products /> -->
            <!-- <Login /> -->
+>>>>>>> b727675db65093b81784204133b8d6b356b876f1
     <!-- <MoreInfo /> -->
     <!-- <Partners /> -->
     <!-- <Footer /> -->

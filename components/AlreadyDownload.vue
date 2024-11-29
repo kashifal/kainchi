@@ -1,7 +1,7 @@
 <template lang="">
     <div class="bg-white mb-40 py-40 lg:py-20 rounded-b-[60px] md:rounded-b-[100px] shadow-[0_100px_99px_#00000008]">
       <div class="max-w-7xl min-h-[500px] h-full mx-auto px-4 grid lg:grid-cols-2 gap-10 lg:gap-2">
-        <div class="h-full flex flex-col items-start justify-between gap-3">
+        <div class="flex flex-col items-start justify-between h-full gap-3">
           <div>
             <h1
               class="lg:text-[56px] md:text-[40px] text-[30px] leading-none text-[#3A0CA3] font-semibold"
@@ -57,7 +57,7 @@
           <div
             v-for="(card, index) in cards"
             :key="index"
-            class="h-full lg:w-1/3 text-wrap cursor-pointer group "
+            class="h-full cursor-pointer lg:w-1/3 text-wrap group "
           >
             <div class="group shadow-[0_3px_10px_#00000029] relative rounded-[25px] w-full 2xl:rounded-[30px] overflow-hidden">
               <img
@@ -65,7 +65,7 @@
                 :src="card.image"
                 :alt="card.title"
               />
-              <div class="group-hover:bg-black/50 transition-all duration-400 h-full w-full absolute top-0 left-0"></div>
+              <div class="absolute top-0 left-0 w-full h-full transition-all group-hover:bg-black/50 duration-400"></div>
             </div>
             <h1
               class="2xl:text-[36px]  text-wrap text-[30px] font-medium leading-none py-4"

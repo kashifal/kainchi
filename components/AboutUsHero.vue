@@ -1,7 +1,7 @@
 <template lang="">
-     <div class="max-w-7xl px-4 mx-auto">
+     <div class="px-4 mx-auto max-w-7xl">
         <div class="text-center">
-            <div class="flex justify-center relative">
+            <div class="relative flex justify-center">
                 <h1 class="text-[3rem] font-extrabold text-[#3E2CA3]">ABOUT US</h1>
                 <div class="absolute left-[70%] text-3xl rotate-12 top-[20%] h-[30px]">
                     💜
@@ -15,10 +15,10 @@
         <div class="relative isolate z-10 mt-[20px]">
            
             <div class="overflow-hidden">
-                <div class="mx-auto max-w-7xl px-6 pb-20 pt-5 sm:pt-5 lg:px-8 lg:pt-5">
-                    <div class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
+                <div class="px-6 pt-5 pb-20 mx-auto max-w-7xl sm:pt-5 lg:px-8 lg:pt-5">
+                    <div class="max-w-2xl mx-auto gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
 
-                        <div class="mt-5 flex jd gap-8  justify-center lg:mt-0 lg:pl-0">
+                        <div class="flex justify-center gap-8 mt-5 jd lg:mt-0 lg:pl-0">
                             <div
                                 class="ml-[0px] w-44 flex-none space-y-8 sm:ml-0 sm:pt-20 lg:order-last xl:order-none xl:pt-10">
                                 <div class="">
@@ -32,18 +32,18 @@
                                         alt=""
                                         class="aspect-[3/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
                                     <div
-                                        class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10">
+                                        class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10">
                                     </div>
                                 </div>
                                <svg class="size-10" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36"><path fill="#fff" d="M15.632 34.661c-.799-.597-1.498-1.484-2.035-2.592l-.228-.47l-.46.249c-.975.528-1.913.858-2.744.969l-.202-3.756l-3.636.968c-.157-.854-.125-1.887.096-3.022l.103-.525l-.532-.066c-1.242-.154-2.306-.525-3.104-1.08l1.521-2.917l-2.988-1.523c.319-.944.948-1.882 1.834-2.735l.377-.363l-.379-.36c-.803-.764-1.408-1.554-1.77-2.311l3.51-1.353l-2.045-3.159c.74-.402 1.693-.686 2.789-.832l.519-.068l-.091-.514c-.215-1.211-.172-2.338.124-3.288l3.308.523l.524-3.308c.988.013 2.08.326 3.164.907l.462.248l.226-.473c.479-1.003 1.044-1.824 1.653-2.404L18 4.326l2.372-2.92c.609.58 1.175 1.401 1.653 2.404l.226.473l.462-.247c1.085-.581 2.178-.894 3.164-.906l.523 3.308l3.31-.525c.296.951.34 2.078.124 3.288l-.092.515l.518.069c1.095.145 2.048.43 2.788.832l-2.046 3.156l3.511 1.355c-.361.757-.966 1.547-1.77 2.311l-.379.36l.377.363c.888.854 1.516 1.793 1.835 2.736l-2.984 1.52l1.521 2.984c-.812.574-1.871.964-3.094 1.134l-.518.072l.096.514c.201 1.089.226 2.083.073 2.909l-3.634-.97l-.204 3.757c-.83-.11-1.768-.44-2.742-.968l-.459-.249l-.228.47c-.539 1.107-1.237 1.994-2.036 2.591L18 32.293z"/><path fill="#ea596e" d="M7.092 10.678c-.53-1.489-.698-2.97-.432-4.2l2.368.375l.987.156l.157-.988l.375-2.368c1.261.127 2.613.743 3.862 1.706c.118-.337.244-.663.382-.967c-1.551-1.135-3.223-1.763-4.73-1.763q-.184 0-.366.013l-.511 3.223l-3.224-.511c-.6 1.487-.565 3.415.085 5.393q.503-.056 1.047-.069m14.501-5.319c1.248-.962 2.6-1.578 3.86-1.705l.376 2.368l.156.988l.987-.157l2.369-.376c.266 1.23.098 2.71-.432 4.2q.542.013 1.046.07c.651-1.978.685-3.906.085-5.394l-3.225.512l-.511-3.224a6 6 0 0 0-.365-.012c-1.507 0-3.179.628-4.73 1.762q.209.46.384.968M7.368 27h.035c.067 0 .157-.604.26-.947c-.098.004-.197.046-.294.046c-1.496 0-2.826-.303-3.83-.89l1.089-2.128l.454-.887l-.891-.452l-2.136-1.088c.508-1.151 1.515-2.25 2.818-3.143a12 12 0 0 1-.81-.669c-1.687 1.217-2.846 2.755-3.235 4.31l2.908 1.483l-1.482 2.843C3.475 26.501 5.303 27 7.368 27m27.806-5.846c-.39-1.555-1.548-3.093-3.234-4.311c-.25.228-.523.451-.81.669c1.304.893 2.31 1.992 2.817 3.145l-2.136 1.088l-.891.453l.454.892l1.089 2.137c-1.004.587-2.332.904-3.828.904c-.099 0-.199-.01-.299-.013q.156.518.26 1.011l.039.002c2.066 0 3.892-.563 5.112-1.587l-1.482-2.908zm-12.653 9.182c-.447 1.517-1.181 2.812-2.119 3.651l-1.695-1.694l-.707-.707l-.707.707l-1.695 1.694c-.938-.839-1.673-2.136-2.12-3.652c-.296.206-.593.397-.886.563c.636 1.98 1.741 3.559 3.1 4.409L18 33l2.308 2.308c1.358-.851 2.464-2.428 3.101-4.408a12 12 0 0 1-.888-.564"/><path fill="#ea596e" d="M20.118 5.683c.426 1.146.748 2.596.841 4.284l.2 3.683l3.564-.946c1.32-.351 2.655-.536 3.86-.536q.24 0 .474.01l-1.827 2.819l3.139 1.211c-.958.759-2.237 1.514-3.814 2.123l-3.441 1.328l2.001 3.099c.918 1.42 1.509 2.782 1.838 3.96l-3.244-.865l-.182 3.357c-1.019-.677-2.132-1.66-3.198-2.973L18 23.374l-2.328 2.862c-1.066 1.312-2.179 2.295-3.198 2.972l-.18-3.354l-3.248.864c.329-1.178.921-2.54 1.839-3.961l2.004-3.099l-3.442-1.328c-1.577-.609-2.856-1.363-3.814-2.122L8.768 15l-1.827-2.823q.233-.01.473-.01c1.206 0 2.541.185 3.861.536l3.564.947l.202-3.683c.092-1.688.415-3.138.84-4.284L18 8.292zm.19-4.991L18 3.533L15.692.692c-1.989 1.532-3.421 4.992-3.646 9.112c-1.617-.43-3.192-.637-4.632-.637c-2.11 0-3.929.445-5.161 1.289l1.989 3.073l-3.415 1.316c.842 2.366 3.69 4.797 7.54 6.283c-2.241 3.465-3.116 7.106-2.407 9.516l3.537-.941l.196 3.654c2.512-.07 5.703-2.027 8.307-5.228c2.603 3.201 5.796 5.158 8.306 5.228l.198-3.655l3.535.943c.71-2.411-.165-6.05-2.404-9.517c3.849-1.485 6.696-3.918 7.538-6.283l-3.415-1.318l1.99-3.07c-1.233-.844-3.053-1.29-5.164-1.29c-1.438 0-3.013.207-4.63.636c-.225-4.119-1.657-7.579-3.646-9.111"/></svg>
                             </div>
-                            <div class="mr-auto w-44 flex-none space-y-4 sm:mr-0 sm:pt-20 lg:pt-16">
+                            <div class="flex-none mr-auto space-y-4 w-44 sm:mr-0 sm:pt-20 lg:pt-16">
                                 <div class="relative">
                                     <img src="https://images.unsplash.com/photo-1485217988980-11786ced9454?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
                                         alt=""
                                         class="aspect-[2/2] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
                                     <div
-                                        class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10">
+                                        class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10">
                                     </div>
                                 </div>
                                 <div class="relative">
@@ -51,17 +51,17 @@
                                         alt=""
                                         class="aspect-[2/2] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
                                     <div
-                                        class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10">
+                                        class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10">
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-44 flex-none space-y-8 pt-5 sm:pt-0">
+                            <div class="flex-none pt-5 space-y-8 w-44 sm:pt-0">
                                 <div class="relative h-[450px] w-[280px]">
                                     <img src="https://images.unsplash.com/photo-1670272504528-790c24957dda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=left&w=400&h=528&q=80"
                                         alt=""
                                         class="aspect-[2/3] w-full h-[100%] rounded-xl bg-gray-900/5 object-cover shadow-lg">
                                     <div
-                                        class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10">
+                                        class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10">
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@
                                         alt=""
                                         class="aspect-[3/2] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
                                     <div
-                                        class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10">
+                                        class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10">
                                     </div>
                                 </div>
                                 <div class="relative">
@@ -79,18 +79,18 @@
                                         alt=""
                                         class="aspect-[2/2] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
                                     <div
-                                        class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10">
+                                        class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10">
                                     </div>
                                 </div>
                             </div>
                             <div
-                                class="ml-auto w-44 flex-none space-y-8 pt-5 sm:ml-0 sm:pt-20 lg:order-last xl:order-none xl:pt-32">
+                                class="flex-none pt-5 ml-auto space-y-8 w-44 sm:ml-0 sm:pt-20 lg:order-last xl:order-none xl:pt-32">
                                 <div class="relative">
                                     <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
                                         alt=""
                                         class="aspect-[3/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
                                     <div
-                                        class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10">
+                                        class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10">
                                     </div>
                                 </div>
                                 <div>
@@ -130,6 +130,7 @@
             </div>
         </div>
     </div>
+    
 </template>
 <script>
 export default {

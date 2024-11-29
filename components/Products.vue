@@ -4,14 +4,14 @@
             
             <header class="mb-8">
                 <p class="text-sm text-gray-600">Dashboard > Profiles > New</p>
-                <h1 class="text-2xl font-bold text-gray-700 mt-2">Products</h1>
+                <h1 class="mt-2 text-2xl font-bold text-gray-700">Products</h1>
             </header>
         
             <div class="flex-1 bg-[#F0F0F2] rounded-lg shadow-lg p-6">
-                <h2 class="text-gray-700 font-bold text-xl mb-6">Products Name</h2>
+                <h2 class="mb-6 text-xl font-bold text-gray-700">Products Name</h2>
           
                 <!-- Form -->
-                <form class="grid grid-cols-1 md:grid-cols-12 gap-6 ">
+                <form class="grid grid-cols-1 gap-6 md:grid-cols-12 ">
                   <!-- Left Section -->
                   <div class="col-span-8 ">
                     <div class="mb-4 ">
@@ -64,14 +64,14 @@
                         <label for="price" class="block text-gray-600 font-medium tracking-wide text-[13px]">Price</label>
                         <div class="flex bg-[#E5E5ED] rounded-lg mt-[6px]">
                             <img src="./carbon--currency-dollar.svg" class="bg-[#A988F5] w-[35px] " alt="">
-                        <input type="text" id="price" placeholder="0.00" class=" px-4 bg-transparent  w-full py-2 rounded-md focus:outline-none focus:ring focus:ring-indigo-200">
+                        <input type="text" id="price" placeholder="0.00" class="w-full px-4 py-2 bg-transparent rounded-md focus:outline-none focus:ring focus:ring-indigo-200">
                     </div>
                       </div>
                       <div class="mb-4  mt-[10px]">
                         <label for="price" class="block text-gray-600 font-medium tracking-wide text-[13px]">Old price</label>
                         <div class="flex bg-[#E5E5ED] rounded-lg mt-[6px]">
                             <img src="./carbon--currency-dollar.svg" class="bg-[#A988F5] w-[35px] " alt="">
-                        <input type="text" id="price" placeholder="0.00" class=" px-4 bg-transparent w-full py-2 rounded-md focus:outline-none focus:ring focus:ring-indigo-200">
+                        <input type="text" id="price" placeholder="0.00" class="w-full px-4 py-2 bg-transparent rounded-md focus:outline-none focus:ring focus:ring-indigo-200">
                     </div>
                       </div>
                       <div class="flex">
@@ -85,14 +85,19 @@
                         <label for="price" class="block text-gray-600 font-medium tracking-wide text-[13px]">Cost per item</label>
                         <div class="flex bg-[#E5E5ED] rounded-lg mt-[6px]">
                             <img src="./carbon--currency-dollar.svg" class="bg-[#A988F5] w-[35px] " alt="">
-                        <input type="text" id="price" placeholder="0.00" class=" px-4 bg-transparent  w-full py-2 rounded-md focus:outline-none focus:ring focus:ring-indigo-200">
+                        <input type="text" id="price" placeholder="0.00" class="w-full px-4 py-2 bg-transparent rounded-md focus:outline-none focus:ring focus:ring-indigo-200">
                     </div>
                       </div>
                     </div>
                   </div>
                 </form>
+<<<<<<< HEAD
+              </div>
+           
+=======
              
           </div>
+>>>>>>> b727675db65093b81784204133b8d6b356b876f1
         </main>
     </div>
 </template>
