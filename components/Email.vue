@@ -31,7 +31,7 @@
   
 
     <div class="absolute flex left-2 bottom-4">
-        <img src="./tdesign--letters-k white.svg" class="h-[50px] " alt="">
+        <!-- <img src="./tdesign--letters-k white.svg" class="h-[50px] " alt=""> -->
         <p class="text-[18px] text-white tracking-wider font-semibold mt-[14px] ml-[0px]">Kainchi</p>
     </div>
     </div>
