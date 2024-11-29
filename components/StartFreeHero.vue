@@ -1,6 +1,6 @@
 <template lang="">
       <section class="bg-[#EBEBEB]">
-        <div class="relative max-w-7xl mx-auto px-4 rounded-[50px] overflow-hidden h-full pb-[200px]  bg-cover bg-center  bg-no-repeat "
+        <div class="relative max-w-7xl mx-auto px-4 rounded-2xl md:rounded-[50px] overflow-hidden h-full  bg-cover bg-center  bg-no-repeat "
             style="background-image: url('https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ayUyMCUyMGxldHRlciUyMFdhbGxwYXBlcnxlbnwwfHwwfHx8MA%3D%3D');">
 
             <!-- Overlay for darkening the background if needed -->
@@ -8,12 +8,12 @@
 
 
             <div class="relative   h-full">
-                <div class="w-[100%] mx-auto  text-white">
-                    <h1 class="text-[2.8rem] font-extrabold pt-[100px] pl-[50px] tracking-wide">START FOR FREE, THEN ENJOY<br> $1/MONTH FOR 3 MONTHS</h1>
-                    <p class="ml-[60px] text-[#DCCCE2] tracking-wide">Try Kainchi free for 3 days, no credit card required</p>
-                    <div class="bg-[#EFD1FC] w-[450px] rounded-full py-[px] ml-[50px] mt-[30px]">
+                <div class="max-w-3xl xl:py-40 py-24 px-10 text-white">
+                    <h1 class="md:text-[2.8rem] text-3xl sm:text-4xl font-bold  ">START FOR FREE, THEN ENJOY $1/MONTH FOR 3 MONTHS</h1>
+                    <p class=" text-[#DCCCE2] mt-6 tracking-wide">Try Kainchi free for 3 days, no credit card required</p>
+                    <div class="bg-[#EFD1FC] text-black sm:w-[70%] rounded-full py-[px] relative mt-[30px]">
                         <input type="text" placeholder="Type your email adress" class="h-[50px] rounded-full w-[250px] ml-[20px] pl-[10px] bg-transparent outline-none placeholder-[#AA95B1]">
-                        <button class="bg-[#212121] h-[43px] rounded-full px-[20px] ml-[35px]">Start free trial</button>
+                        <button class="bg-[#212121] text-white h-[43px] absolute right-2 top-1/2 -translate-y-1/2 rounded-full px-[20px] ">Start free trial</button>
                     </div>
                 </div>
             </div>

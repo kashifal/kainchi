@@ -1,8 +1,8 @@
 <template lang="">
     <section class="max-w-7xl py-20 text-[#212121] mx-auto px-4">
-        <div class="flex items-center justify-between">
+        <div class="flex flex-wrap gap-4 items-center justify-between">
             <p class=" sm:text-[18px]">Extend your free trial for $1/mo on your first 3 months when billed monthly</p>
-            <div class="border border-[rgb(58,12,163)] overflow-hidden rounded-full p-[2px] flex items-center gap-1">
+            <div class="border whitespace-nowrap border-[rgb(58,12,163)] overflow-hidden rounded-full p-[2px] flex items-center gap-1">
                 <button class="sm:text-[18px] hover:bg-[#3A0CA3] hover:text-white rounded-full px-4 py-2 text-center h-full">Monthly</button>
                 <button class="sm:text-[18px] bg-[#3A0CA3] text-white rounded-full px-4 py-2 text-center h-full">Yearly ( save 40% )</button>
             </div>
@@ -111,7 +111,7 @@
        </div>
    </div>
 </div>
-<section class="w-full mx-auto mt-10 relative overflow-hidden rounded-3xl my-20">
+<section class="w-full mx-auto mt-10 relative overflow-hidden rounded-xl md:rounded-3xl my-20">
 
 <div class="absolute inset-0 bg-cover bg-center"
     style="background-image: url('https://images.unsplash.com/photo-1459603677915-a62079ffd002?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNhcnxlbnwwfHwwfHx8MA%3D%3D');">
@@ -121,9 +121,9 @@
 </div>
 
 
-<div class="relative z-10 p-10 text-white">
+<div class="relative z-10 p-5 sm:p-10 text-white">
     
-    <h1 class="text-5xl md:text-6xl font-extrabold leading-snug mb-6">
+    <h1 class="sm:text-5xl text-3xl md:text-6xl font-semibold leading-snug mb-6">
         LOOKING<br> FOR MORE
     </h1>
     <p class="text-lg md:text-[14px] mb-8 leading-[20px]">
@@ -131,19 +131,19 @@
     </p>
     
     
-    <a href="#" class="inline-block bg-[#212121] text-[#fffff] hover:bg-[#3E2CA3] font-semibold py-[20px] px-6 rounded-full">
+    <a href="#" class="inline-block whitespace-nowrap bg-[#212121] text-[#fffff] hover:bg-[#3E2CA3] font-semibold py-2.5 md:py-[20px] px-6 rounded-full">
         Contact our VIP team
     </a>
 </div>
 </section>
 
 
-<section class="w-full mx-auto mt-10 grid grid-cols-12 lg:grid-cols-12 gap-10">
+<section class="w-full mx-auto mt-10 grid lg:grid-cols-12 gap-20 xl:gap-10">
         
-        <div class="flex flex-col justify-between col-span-4">
+        <div class="flex flex-col  justify-between lg:col-span-4">
           
             <div>
-                <h1 class="text-3xl  font-extrabold text-[#3E2CA3]  leading-tight">
+                <h1 class="sm:text-5xl text-3xl  font-semibold text-[#3E2CA3]  leading-tight">
                     MORE<br>INFORMATIONS
                 </h1>
                 <p class="text-[13px] text-gray-700 ">
@@ -151,7 +151,7 @@
                 </p>
             </div>
             
-            <div class="flex gap-2 text-[#3E2CA3]">
+            <div class="flex gap-2 lg:mt-0 mt-5 text-[#3E2CA3]">
                           <div class="size-[50px] -rotate-90 rounded-full flex items-center justify-center cursor-pointer hover:bg-[#3E2CA3] hover:text-white border border-[#3E2CA3] ">
                             <svg class="size-8" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m17 14l-5-5l-5 5"/></svg>
                         </div>
@@ -163,16 +163,16 @@
         </div>
     
         
-        <div class="grid col-span-8 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="grid lg:col-span-8 w-full  sm:grid-cols-2 lg:grid-cols-3 gap-3 xl:gap-6">
             
-            <div class="border-2 border-[#3E2CA3] p-6 rounded-lg bg-white shadow-lg flex flex-col justify-between">
+            <div class="border-2 border-[#3E2CA3] p-6 rounded-xl bg-white shadow-lg flex flex-col justify-between">
                 <div class=" items-center  mb-4">
                     
                     <div class="bg-[#A988F5] text-white flex items-center justify-center rounded-full size-[46px] ">
                 <svg class="size-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M6.5 5A4.5 4.5 0 0 0 2 9.5V11h28V9.5A4.5 4.5 0 0 0 25.5 5zM2 22.5V13h28v9.5a4.5 4.5 0 0 1-4.5 4.5h-19A4.5 4.5 0 0 1 2 22.5M21 19a1 1 0 1 0 0 2h3a1 1 0 1 0 0-2z"/></svg>
             </div>
                     
-                    <h2 class="text-2xl font-bold text-[#3E2CA3]">Payment Methods</h2>
+                    <h2 class="text-2xl mt-2 font-bold text-[#3E2CA3]">Payment Methods</h2>
                 </div>
                 
                 <p class="text-gray-600 mb-6 text-[12px]">
@@ -185,12 +185,14 @@
             </div>
     
             
-            <div class="border-2 border-[#3E2CA3] p-6 rounded-lg bg-white shadow-lg flex flex-col justify-between">
+            <div class="border-2 border-[#3E2CA3] p-6 rounded-xl bg-white shadow-lg flex flex-col justify-between">
                 <div class=" items-center  mb-4">
                     
-                    <i class='bx bx-wallet text-[#3E2CA3] text-4xl'></i>
+                    <div class="bg-[#A988F5] text-white flex items-center justify-center rounded-full size-[46px] ">
+                <svg class="size-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M6.5 5A4.5 4.5 0 0 0 2 9.5V11h28V9.5A4.5 4.5 0 0 0 25.5 5zM2 22.5V13h28v9.5a4.5 4.5 0 0 1-4.5 4.5h-19A4.5 4.5 0 0 1 2 22.5M21 19a1 1 0 1 0 0 2h3a1 1 0 1 0 0-2z"/></svg>
+            </div>
                     
-                    <h2 class="text-2xl font-bold text-[#3E2CA3]">Build community</h2>
+                    <h2 class="text-2xl mt-2 font-bold text-[#3E2CA3]">Build community</h2>
                 </div>
 
                 <p class="text-gray-600 mb-6 text-[12px]">
@@ -198,17 +200,19 @@
                 </p>
                 
                 <div class="flex justify-end">
-                    <i class='bx bx-right-arrow-alt text-[#3E2CA3] text-3xl'></i>
+                    <svg class="text-[#3E2CA3] size-8" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-6 6l6-6m-6-6l6 6"/></svg>
                 </div>
             </div>
     
             
-            <div class="border-2 border-[#3E2CA3] p-6 rounded-lg bg-white shadow-lg flex flex-col justify-between">
+            <div class="border-2 border-[#3E2CA3] p-6 rounded-xl bg-white shadow-lg flex flex-col justify-between">
                 <div class=" items-center  mb-4">
                     
-                    <i class='bx bx-support text-[#3E2CA3] text-4xl'></i>
+                    <div class="bg-[#A988F5] text-white flex items-center justify-center rounded-full size-[46px] ">
+                <svg class="size-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M6.5 5A4.5 4.5 0 0 0 2 9.5V11h28V9.5A4.5 4.5 0 0 0 25.5 5zM2 22.5V13h28v9.5a4.5 4.5 0 0 1-4.5 4.5h-19A4.5 4.5 0 0 1 2 22.5M21 19a1 1 0 1 0 0 2h3a1 1 0 1 0 0-2z"/></svg>
+            </div>
                     
-                    <h2 class="text-2xl font-bold text-[#3E2CA3] block">Security</h2>
+                    <h2 class="text-2xl mt-2 font-bold text-[#3E2CA3] block">Security</h2>
                 </div>
                 
                 <p class="text-gray-600 mb-6 text-[12px]">
@@ -216,7 +220,7 @@
                 </p>
                 
                 <div class="flex justify-end">
-                    <i class='bx bx-right-arrow-alt text-[#3E2CA3] text-3xl'></i>
+                    <svg class="text-[#3E2CA3] size-8" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-6 6l6-6m-6-6l6 6"/></svg>
                 </div>
             </div>
         </div>

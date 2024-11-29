@@ -7,18 +7,20 @@
     <!-- <StartFree /> -->
      <!-- <Test /> -->
      <!-- <Company /> -->
+     <!-- <HelpCenter /> -->
      <!-- <PrivacyPolicy /> -->
+     <!-- <TermsOfUse /> -->
       <!-- <Blog /> -->
        <!-- <LastUpdate /> -->
         <!-- <Email /> -->
          <!-- <Password /> -->
          <!-- <Username /> -->
-          <!-- <Dashboard /> -->
+          <Dashboard />
            <!-- <Stores /> -->
            <!-- <Categories /> -->
            <!-- <StaffAccount /> -->
            <!-- <Products /> -->
-           <Login />
+           <!-- <Login /> -->
     <!-- <MoreInfo /> -->
     <!-- <Partners /> -->
     <!-- <Footer /> -->
@@ -31,7 +33,9 @@ import Download from './Download.vue'
 import AboutUs from './AboutUs.vue'
 import StartFree from './StartFree.vue'
 import Company from './Company.vue'
+import HelpCenter from './HelpCenter.vue'
 import PrivacyPolicy from './PrivacyPolicy.vue'
+import TermsOfUse from './TermsOfUse.vue'
 import Blog from './Blog.vue'
 import LastUpdate from './LastUpdate.vue'
 import Email from './Email.vue'

@@ -12,17 +12,17 @@
       </button>
     </div>
     <div class="flex items-center  gap-2 min-h-[750px]">
-        <div class="rounded-[20px] group transition-all duration-400 hover:w-[80%]  cursor-pointer  relative h-full overflow-hidden shadow-[0px_3px_10px_#00000029] bg-[url('https://images.unsplash.com/photo-1585157603781-61e911469239?q=80&w=1415&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] object-fit w-[33%]">
+        <div class="rounded-[20px] group transition-all duration-400 hover:max-w-7xl  cursor-pointer  relative h-full overflow-hidden shadow-[0px_3px_10px_#00000029] bg-[url('https://images.unsplash.com/photo-1585157603781-61e911469239?q=80&w=1415&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] object-fit w-[33%]">
             <div class="absolute  flex items-center justify-center left-1/2 bottom-0 group-hover:top-1/2 -translate-y-1/2 size-20 rounded-full -translate-x-1/2 bg-white/60 shadow-[0px_0px_20px_#00000029] ">
                 <svg class="size-10 text-[#212121]" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.14v14l11-7z"/></svg>
             </div>
         </div>
-        <div class="rounded-[20px] group transition-all duration-400 hover:w-[80%]  cursor-pointer  relative h-full overflow-hidden shadow-[0px_3px_10px_#00000029] bg-[url('https://plus.unsplash.com/premium_photo-1664299064286-068b9bd7a6e2?q=80&w=1462&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] object-cover w-[33%]">
+        <div class="rounded-[20px] group transition-all duration-400 hover:max-w-7xl  cursor-pointer  relative h-full overflow-hidden shadow-[0px_3px_10px_#00000029] bg-[url('https://plus.unsplash.com/premium_photo-1664299064286-068b9bd7a6e2?q=80&w=1462&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] object-cover w-[33%]">
             <div class="absolute  flex items-center justify-center left-1/2 bottom-0 group-hover:top-1/2 -translate-y-1/2 size-20 rounded-full -translate-x-1/2 bg-white/60 shadow-[0px_0px_20px_#00000029] ">
                 <svg class="size-10 text-[#212121]" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.14v14l11-7z"/></svg>
             </div>
         </div>
-        <div class="rounded-[20px] group transition-all duration-400 hover:w-[80%]  cursor-pointer  relative h-full overflow-hidden shadow-[0px_3px_10px_#00000029] bg-[url('https://plus.unsplash.com/premium_photo-1697729588019-20a1f5a325d1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] object-cover w-[33%]">
+        <div class="rounded-[20px] group transition-all duration-400 hover:max-w-7xl  cursor-pointer  relative h-full overflow-hidden shadow-[0px_3px_10px_#00000029] bg-[url('https://plus.unsplash.com/premium_photo-1697729588019-20a1f5a325d1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] object-cover w-[33%]">
             <div class="absolute  flex items-center justify-center left-1/2 bottom-0 group-hover:top-1/2 -translate-y-1/2 size-20 rounded-full -translate-x-1/2 bg-white/60 shadow-[0px_0px_20px_#00000029] ">
                 <svg class="size-10 text-[#212121]" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.14v14l11-7z"/></svg>
             </div>
