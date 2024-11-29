@@ -17,7 +17,7 @@
                 <div class="size-[42px] bg-[#480CA8] rounded-full"></div>
                 <div class="size-[42px] bg-[#480CA8] rounded-full"></div>
             </div>
-        <img src="/infoGirl.png" class="h-full object-cover" />
+        <!-- <img src="/infoGirl.png" class="h-full object-cover" /> -->
     </div>
     </div>
    

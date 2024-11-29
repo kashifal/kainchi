@@ -13,7 +13,7 @@
                 <div class="flex-1">
                     <!-- Image Section -->
                     <div class="flex justify-center mt-8 lg:mt-24">
-                        <img src="./ci--image-02.svg" class="h-10" alt="Illustration">
+                        <!-- <img src="./ci--image-02.svg" class="h-10" alt="Illustration"> -->
                     </div>
                     <!-- Text Content -->
                     <div class="mt-[270px] p-4 rounded-lg border-2">

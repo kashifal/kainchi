@@ -18,7 +18,7 @@
                       <label for="title" class="block text-gray-600 font-semibold text-[14px] ">Title</label>
                       <input type="text" id="title" placeholder="" class="w-full px-4 py-3 border bg-[#E8EAEB] mt-[10px] shadow-md rounded-md focus:outline-none focus:ring focus:ring-indigo-200">
                       <div class="flex justify-end mt-[4px] text-[12px] text-[#BAA0F6]">
-                        <img src="./bxs--pencil.svg" class="h-[14px] mr-[6px] mt-[2px]" alt="">
+                        <!-- <img src="./bxs--pencil.svg" class="h-[14px] mr-[6px] mt-[2px]" alt=""> -->
                         <p class="font-semibold">0/20 - 70</p>
                     </div>
                     </div>
@@ -26,7 +26,7 @@
                         <label for="title" class="block text-gray-600 font-semibold text-[14px] ">Sub Title</label>
                         <input type="text" id="title" placeholder="" class="w-full px-4 py-3 border bg-[#E8EAEB] mt-[10px] shadow-md rounded-md focus:outline-none focus:ring focus:ring-indigo-200">
                         <div class="flex justify-end mt-[4px] text-[12px] text-[#BAA0F6]">
-                            <img src="./bxs--pencil.svg" class="h-[14px] mr-[6px] mt-[2px]" alt="">
+                            <!-- <img src="./bxs--pencil.svg" class="h-[14px] mr-[6px] mt-[2px]" alt=""> -->
                             <p class="font-semibold">0/20 - 70</p>
                         </div>
                       </div>
@@ -41,7 +41,7 @@
                     <div class="flex justify-between text-[#BAA0F6] text-[12px]">
                         <p>Your short description tag should be between 100-160 characters</p>
                         <div class="flex">
-                            <img src="./bxs--pencil.svg" class="h-[14px] mr-[6px] mt-[2px]" alt="">
+                            <!-- <img src="./bxs--pencil.svg" class="h-[14px] mr-[6px] mt-[2px]" alt=""> -->
                             <p>0/20 - 70</p>
                         </div>
 
@@ -63,19 +63,19 @@
                       <div class="mb-4  mt-[10px]">
                         <label for="price" class="block text-gray-600 font-medium tracking-wide text-[13px]">Price</label>
                         <div class="flex bg-[#E5E5ED] rounded-lg mt-[6px]">
-                            <img src="./carbon--currency-dollar.svg" class="bg-[#A988F5] w-[35px] " alt="">
+                            <!-- <img src="./carbon--currency-dollar.svg" class="bg-[#A988F5] w-[35px] " alt=""> -->
                         <input type="text" id="price" placeholder="0.00" class="w-full px-4 py-2 bg-transparent rounded-md focus:outline-none focus:ring focus:ring-indigo-200">
                     </div>
                       </div>
                       <div class="mb-4  mt-[10px]">
                         <label for="price" class="block text-gray-600 font-medium tracking-wide text-[13px]">Old price</label>
                         <div class="flex bg-[#E5E5ED] rounded-lg mt-[6px]">
-                            <img src="./carbon--currency-dollar.svg" class="bg-[#A988F5] w-[35px] " alt="">
+                            <!-- <img src="./carbon--currency-dollar.svg" class="bg-[#A988F5] w-[35px] " alt=""> -->
                         <input type="text" id="price" placeholder="0.00" class="w-full px-4 py-2 bg-transparent rounded-md focus:outline-none focus:ring focus:ring-indigo-200">
                     </div>
                       </div>
                       <div class="flex">
-                        <img src="./ic--baseline-star.svg" class="h-[18px]" alt="">
+                        <!-- <img src="./ic--baseline-star.svg" class="h-[18px]" alt=""> -->
                         <p class="text-[12px] font-semibold text-[#656565] ml-[10px]">Set "Compare to" price</p>
                       </div>
                       <p class="text-[11px] mt-[10px] text-[#656565]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, aut ipsum? Similique</p>
@@ -84,7 +84,7 @@
                       <div class="mb-4  mt-[10px]">
                         <label for="price" class="block text-gray-600 font-medium tracking-wide text-[13px]">Cost per item</label>
                         <div class="flex bg-[#E5E5ED] rounded-lg mt-[6px]">
-                            <img src="./carbon--currency-dollar.svg" class="bg-[#A988F5] w-[35px] " alt="">
+                            <!-- <img src="./carbon--currency-dollar.svg" class="bg-[#A988F5] w-[35px] " alt=""> -->
                         <input type="text" id="price" placeholder="0.00" class="w-full px-4 py-2 bg-transparent rounded-md focus:outline-none focus:ring focus:ring-indigo-200">
                     </div>
                       </div>
