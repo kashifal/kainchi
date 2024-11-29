@@ -3,7 +3,7 @@
             <div class="mb-8">
                 <h2 class="text-[1.5rem] font-bold text-gray-800">Hello Webmaster, Welcome to Kain'chi</h2>
                 <div class="flex bg-[#E9E9EE] py-[6px] pl-[10px] rounded-lg mt-[20px]">
-                    <img src="./material-symbols--star.svg" class="h-[20px]" alt="">
+                    <!-- <img src="./material-symbols--star.svg" class="h-[20px]" alt=""> -->
                     <p class=" text-gray-600 ml-[10px]">
                         Before you start using Kainchi, we suggest you
                         <a href="#" class="text-purple-600 hover:underline">Watch this demo.</a>
@@ -17,7 +17,7 @@
                     <h3 class="text-[18px] font-bold text-gray-800 pl-[6px]">300</h3>
                     <p class="text-gray-500 pl-[6px]">Total Profiles</p>
                     <div class="flex mt-[50px] pl-[6px]">
-                        <img src="./foundation--graph-bar.svg" class="w-[26px]" alt="">
+                        <!-- <img src="./foundation--graph-bar.svg" class="w-[26px]" alt=""> -->
                         <p class="mt-2 text-sm font-medium text-green-600">+125%</p>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
           <h3 class="text-[18px] font-bold text-gray-800 pl-[6px]">205</h3>
           <p class="text-gray-500 pl-[6px]">Account Balance</p>
           <div class="flex mt-[50px] pl-[6px]">
-            <img src="./foundation--graph-bar.svg" class="w-[26px]" alt="">
+            <!-- <img src="./foundation--graph-bar.svg" class="w-[26px]" alt=""> -->
           <p class="mt-2 text-sm font-medium text-green-600">+50%</p>
         </div>
         </div>
@@ -35,7 +35,7 @@
             <h3 class="text-[18px] font-bold text-gray-800 pl-[6px] ">456</h3>
             <p class="text-gray-500 pl-[6px]">New Sales</p>
             <div class="flex mt-[50px] pl-[6px]">
-              <img src="./foundation--graph-bar.svg" class="w-[26px]" alt="">
+              <!-- <img src="./foundation--graph-bar.svg" class="w-[26px]" alt=""> -->
             <p class="mt-2 text-sm font-medium text-red-600">-12%</p>
           </div>
           </div>
@@ -43,7 +43,7 @@
               <h3 class="text-[18px] font-bold text-gray-800 pl-[6px]">12</h3>
               <p class="text-gray-500 pl-[6px]">Pending Contacts</p>
               <div class="flex mt-[50px] pl-[6px]">
-                <img src="./foundation--graph-bar.svg" class="w-[26px]" alt="">
+                <!-- <img src="./foundation--graph-bar.svg" class="w-[26px]" alt=""> -->
               <p class="mt-2 text-sm font-medium text-green-600">+29%</p>
             </div>
             </div>

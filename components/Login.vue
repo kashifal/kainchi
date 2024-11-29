@@ -6,7 +6,7 @@
           <div class="flex-1 px-8 py-4 text-center ">
 
             <div class=" flex ">
-                <img src="./tdesign--letters-k white.svg" class="h-[40px] invert " alt="">
+                <!-- <img src="./tdesign--letters-k white.svg" class="h-[40px] invert " alt=""> -->
                 <p class="text-[18px] text-black tracking-wider font-semibold mt-[7px] ml-[0px]">Kainchi</p>
             </div>
             <h1 class="text-2xl font-bold text-gray-800">Welcome</h1>
