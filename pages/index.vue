@@ -26,8 +26,8 @@
 </template>
 
 <script setup>
-import Landing from './Landing.vue'
 import Download from './Download.vue'
+import Landing from './Landing.vue'
 import AboutUs from './AboutUs.vue'
 import StartFree from './StartFree.vue'
 import Company from './Company.vue'
