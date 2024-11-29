@@ -91,8 +91,13 @@
                     </div>
                   </div>
                 </form>
+<<<<<<< HEAD
               </div>
            
+=======
+             
+          </div>
+>>>>>>> b727675db65093b81784204133b8d6b356b876f1
         </main>
     </div>
 </template>

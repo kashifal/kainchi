@@ -1,11 +1,12 @@
 <template lang="">
     <div>
         <div class="flex items-center justify-center min-h-screen bg-gradient-to-br from-purple-500 to-blue-500">
-    <div class="bg-white/90 p-8 rounded-2xl shadow-lg w-[90%] max-w-md text-center relative">
+   <div class="flex flex-col jsutify-center items-center gap-3">
+            <div class="bg-white/90 p-8 rounded-2xl shadow-lg w-[90%] max-w-md text-center relative">
         
-        <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 w-20 h-20 rounded-full bg-white shadow-md flex items-center justify-center">
+        <div class="absolute -top-10 left-1/2 border-4 border-[#726BF6] transform -translate-x-1/2 w-20 h-20 rounded-full bg-white shadow-md flex items-center justify-center">
             
-           <img src="./tdesign--letters-k.svg" class="h-[50px]" alt="">
+           K
              
         </div>
 
@@ -17,15 +18,19 @@
             <button type="submit" class="w-full bg-black text-white py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors">
                 Sign up or sign in
             </button>
+            <p class="text-[12px] text-[#B41717] mt-3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+        </p>
         </form>
     </div>
 
     
-    <div class="absolute bottom-32 flex space-x-2">
-        <div class="w-2.5 h-2.5 rounded-full bg-white/70"></div>
-        <div class="w-2.5 h-2.5 rounded-full bg-white"></div>
-        <div class="w-2.5 h-2.5 rounded-full bg-white/70"></div>
+    <div class=" flex mx-auto mt-2 w-fit gap-2">
+        <div class="w-2.5 h-2.5 hover:text-white scale-[0.8] rounded-full cursor-pointer bg-white/70"></div>
+        <div class="w-2.5 h-2.5 scale-[1.02] cursor-pointer rounded-full bg-white"></div>
+        <div class="w-2.5 h-2.5 hover:text-white scale-[0.9] cursor-pointer rounded-full bg-white/70"></div>
     </div>
+</div>
 
     <div class="absolute flex left-2 bottom-4">
         <img src="./tdesign--letters-k white.svg" class="h-[50px] " alt="">

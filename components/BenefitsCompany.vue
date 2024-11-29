@@ -1,6 +1,6 @@
 <template lang="">
     <section class=" bg-[#EBEBEB]">
-        <div class="w-[80%] mx-auto text-center">
+        <div class="max-w-7xl mx-auto text-center">
             <div>
                 <h2 class="leading-[40px] text-[2.1rem] font-semibold text-[#3E2CA3]">BENEFITS OF OUR<br>PARTNERSHIP</h2>
                 <p class="text-[14px] mt-[10px] ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex dolorem<br> at facere cupiditate perspiciatis nihil, in dolorum delectus, mollitia ea voluptas<br> officia odio harum! Assumenda consectetur laudantium minima eius! Officia.</p>
