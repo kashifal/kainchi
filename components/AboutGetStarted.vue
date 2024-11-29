@@ -7,7 +7,7 @@
             </div>
             <div>
                 <h2 class="text-[18px] font-bold md:mt-[100px] ">Get Started</h2>
-                <p class="text-[14px] text-[#6B6B6B] w-[80%] mt-[15px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, architecto omnis quaerat ab deleniti voluptates doloremque necessitatibus delectus possimus eos voluptate ipsum commodi sequi iste assumenda! Aperiam repellat beatae dolore!</p>
+                <p class="text-[14px] text-[#6B6B6B] max-w-7xl mt-[15px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, architecto omnis quaerat ab deleniti voluptates doloremque necessitatibus delectus possimus eos voluptate ipsum commodi sequi iste assumenda! Aperiam repellat beatae dolore!</p>
                 <button class="border-[1px] rounded-full  text-[#3E3E3E] hover:text-white hover:bg-[#3E3E3E] border-[#3E3E3E] text-[14px] px-10 py-2.5 mt-[20px] cursor-pointer">START NOW !</button>
             </div>
 
