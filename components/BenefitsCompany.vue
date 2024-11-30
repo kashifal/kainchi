@@ -8,14 +8,14 @@
             <div class="flex md:flex-row gap-4 flex-col items-center justify-center mt-[50px]">
                 <div class="bg-white w-[450px] py-[30px] rounded-3xl px-[20px]">
                     <div class="flex justify-center shadow-xl h-[90px] w-[110px] bg-white rounded-3xl ml-[160px]">
-                    <img src="./iconoir--medal-1st-solid.svg" class="h-[50px] mt-[20px]" alt="">
+                    <!-- <img src="./iconoir--medal-1st-solid.svg" class="h-[50px] mt-[20px]" alt=""> -->
                 </div>
                 <p class="font-semibold mt-[14px]">A Win-Win Contracts</p>
                 <p class="text-[12px] mt-[16px] text-[#C5C4C5]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo <br>co adipisicing elit. Quo consequuntu dolor sit amet</p>
                 </div>
                 <div class="bg-white w-[450px] py-[30px] rounded-3xl px-[20px]">
                     <div class="flex justify-center shadow-xl shadow-inner h-[90px] w-[110px] bg-white rounded-3xl ml-[160px]">
-                    <img src="./hugeicons--nano-technology.svg" class="h-[50px] mt-[20px]" alt="">
+                    <!-- <img src="./hugeicons--nano-technology.svg" class="h-[50px] mt-[20px]" alt=""> -->
                 </div>
                 <p class="font-semibold mt-[14px]">Make Use Of The Best And Latest Technology</p>
                 <p class="text-[12px] mt-[16px] text-[#C5C4C5]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo <br>co adipisicing elit. Quo consequuntu dolor sit amet</p>
@@ -24,7 +24,7 @@
             <div class="flex justify-center mt-[20px]">
             <div class="bg-white w-[450px] py-[30px] rounded-3xl px-[20px]">
                 <div class="flex justify-center shadow-xl shadow-inner h-[90px] w-[110px] bg-white rounded-3xl ml-[160px]">
-                <img src="./simple-icons--futurelearn.svg" class="h-[50px] mt-[20px]" alt="">
+                <!-- <img src="./simple-icons--futurelearn.svg" class="h-[50px] mt-[20px]" alt=""> -->
             </div>
             <p class="font-semibold mt-[14px]">Earn More</p>
             <p class="text-[12px] mt-[16px] text-[#C5C4C5]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo <br>co adipisicing elit. Quo consequuntu dolor sit amet</p>

@@ -31,7 +31,7 @@
                     
                     <div class="flex-1">
                         <div class="w-[100%] flex justify-center mt-[170px]">
-                            <img src="./ci--image-02.svg" class="h-[40px]" alt="">
+                            <!-- <img src="./ci--image-02.svg" class="h-[40px]" alt=""> -->
                         </div>
                         <div class="mt-[100px] p-4 rounded-lg border-2">
                             <p class="font-bold text-[1.4rem]">Rember your Customers want interaction</p>
@@ -57,7 +57,7 @@
                                 <p class="text-[11px] text-[#B4B3B3]">Your favicon must be 16 × 16 </p>
                                 <div class="flex items-center border rounded-2xl bg-gray-50 px-4 py-3 mt-[10px]">
                                     <div class="text-center w-[100%]">
-                                        <img src="./akar-icons--download.svg" class="mx-auto h-[20px] w-[100px]" alt="">
+                                        <!-- <img src="./akar-icons--download.svg" class="mx-auto h-[20px] w-[100px]" alt=""> -->
                                         <p class="text-gray-400 leading-[18px] mt-[4px] text-[14px]">
                                             Attach your favicon here<br>or<br>
                                             <span class="text-[#C0ADF4]">Browse your favicon</span>
@@ -65,7 +65,7 @@
                                     </div>
                                 </div>
                                 <div class="flex justify-end w-[100%] mt-[6px]">
-                                    <img src="./solar--lock-linear.svg" class="mr-[6px]" alt="">
+                                    <!-- <img src="./solar--lock-linear.svg" class="mr-[6px]" alt=""> -->
                                     <p class="text-sm text-[#C0ADF4] mt-[2px]">Secure</p>
                                 </div>
                             </div>

@@ -64,8 +64,8 @@
                         </div>
         </div>
                        <div class="flex  ml-[20px]">
-                    <img src="./ic--sharp-arrow-left.svg" class="h-[30px]" alt="">
-                    <img src="./ic--sharp-arrow-right.svg" class="h-[30px] ml-[10px]" alt="">
+                    <!-- <img src="./ic--sharp-arrow-left.svg" class="h-[30px]" alt=""> -->
+                    <!-- <img src="./ic--sharp-arrow-right.svg" class="h-[30px] ml-[10px]" alt=""> -->
                    </div>
             </div>
 

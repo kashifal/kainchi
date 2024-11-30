@@ -71,7 +71,7 @@
                     <!-- Manage Everything Section -->
                     <div class="flex-1">
                         <div class="w-[100%] flex justify-center mt-[170px]">
-                            <img src="./ci--image-02.svg" class="h-[40px]" alt="">
+                            <!-- <img src="./ci--image-02.svg" class="h-[40px]" alt=""> -->
 
                         </div>
                         <div class="mt-[100px] p-4  rounded-lg border-2 ">
