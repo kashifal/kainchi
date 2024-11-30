@@ -1,29 +1,29 @@
 <template lang="">
    <main class="flex-1 p-8">
-            <header class="flex  items-center">
+            <header class="flex items-center">
                 <h1 class="text-2xl font-semibold text-gray-700">Stores</h1>
 
                 
-                <div class=" w-full flex justify-around items-center">
+                <div class="flex items-center justify-around w-full ">
                     <div
-                        class="w-10 h-10 bg-indigo-500 text-white rounded-full flex items-center justify-center font-bold">
+                        class="flex items-center justify-center w-10 h-10 font-bold text-white bg-indigo-500 rounded-full">
                         1</div>
                     <div class="w-40 h-2 bg-indigo-500"></div>
                     <div
-                        class="w-10 h-10 bg-indigo-500 text-white rounded-full flex items-center justify-center font-bold">
+                        class="flex items-center justify-center w-10 h-10 font-bold text-white bg-indigo-500 rounded-full">
                         2
                     </div>
                     <div class="w-40 h-2 bg-indigo-500"></div>
                     <div
-                        class="w-10 h-10 bg-indigo-500  text-white rounded-full flex items-center justify-center font-bold">
+                        class="flex items-center justify-center w-10 h-10 font-bold text-white bg-indigo-500 rounded-full">
                         3</div>
                     <div class="w-40 h-2 bg-indigo-500"></div>
-                    <div class="w-10 h-10 bg-indigo-500 text-white rounded-full flex items-center justify-center font-bold">4
+                    <div class="flex items-center justify-center w-10 h-10 font-bold text-white bg-indigo-500 rounded-full">4
                     </div>
                 </div>
             </header>
 
-            <div class="mt-8 bg-white shadow rounded-md px-6">
+            <div class="px-6 mt-8 bg-white rounded-md shadow">
 
 
                 
@@ -71,7 +71,7 @@
                             </div>
                 
                             
-                            <div class="mt-8 flex justify-between">
+                            <div class="flex justify-between mt-8">
                                 <button class="bg-gray-200 text-gray-700 px-6 py-4 hover:bg-gray-300 w-[30%] rounded-full">Previous</button>
                                 <button class="bg-indigo-600 text-white px-6 py-4 hover:bg-indigo-500 w-[60%] rounded-full">Next</button>
                             </div>
