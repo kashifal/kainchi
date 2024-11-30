@@ -1,115 +1,88 @@
 <template lang="">
-     <main class="flex-1 p-8">
-            <!-- Header -->
-            <header class="flex items-center justify-between mb-8">
-              <h1 class="text-2xl font-semibold text-gray-700">Categories</h1>
-            </header>
-        
-            <!-- Content Section -->
-            <div class="flex space-x-8 bg-white">
-              <!-- Left Section -->
-              <div class="flex-1">
-                <div class="w-[100%] flex justify-center mt-[240px]">
-                    <!-- <img src="./ci--image-02.svg" class="h-[40px]" alt=""> -->
-                </div>
-                <div class="mt-[100px] p-4 rounded-lg border-2 ml-[20px]">
-                    <p class="font-bold text-[1.3rem]">Understanding various categories in Kainchi</p>
-                    <p class="text-[12px] text-gray-600 mt-[10px]">
-                        Lorem ipsum dolor sit amet, consectetur<br>
-                        amet consectetur adipisicing elit. Veniam non velit obcaecati <br>
-                        amet consectetur adipisicing elit. Veniam non velit obcaecati <br>
-                        amet consectetur adipisicing elit. Veniam non velit obcaecati <br>
-                        dolor incidunt praesentium dolor! Recusandae impedi
-                    </p>
-                </div>
-            </div>
-        
-              <!-- Right Section -->
-              <div class="w-1/2  p-6">
-                <h2 class="text-[1.7rem] font-semibold text-gray-700 mb-4">Categories and subcategories</h2>
-                <form class="space-y-4">
-                  <!-- Toggle Button -->
-                  <div class="flex items-center space-x-4">
-                    <span class="text-sm text-gray-700 font-bold">Category</span>
-                    <label for="toggle" class="relative inline-block w-12 h-6">
-                      <input
-                        type="checkbox"
-                        id="toggle"
-                        class="peer hidden"
-                      />
-                      <span
-                        class="absolute cursor-pointer inset-0 bg-gray-300 rounded-full transition-all duration-300 peer-checked:bg-indigo-500"
-                      ></span>
-                      <span
-                        class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-all duration-300 peer-checked:translate-x-6"
-                      ></span>
-                    </label>
-                    <span class="text-sm text-gray-700 font-bold">Subcategory</span>
-                    <label for="toggle" class="relative inline-block w-12 h-6">
-                        <input
-                          type="checkbox"
-                          id="toggle"
-                          class="peer hidden"
-                        />
-                        <span
-                          class="absolute cursor-pointer inset-0 bg-gray-300 rounded-full transition-all duration-300 peer-checked:bg-indigo-500"
-                        ></span>
-                        <span
-                          class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-all duration-300 peer-checked:translate-x-6"
-                        ></span>
-                      </label>
-                  </div>
-        
-                  <!-- Name Input -->
-                  <div>
-                    <label for="name" class="block text-sm font-semibold text-gray-700">Name</label>
-                    <input
-                      type="text"
-                      id="name"
-                      class="w-full px-4 mt-[6px] py-4 border rounded-md bg-white focus:outline-none focus:ring focus:ring-indigo-300 bg-gradient-to-r from-purple-100 to-purple-200 shadow-md rounded-lg"
-                      placeholder=""
-                    />
-                  </div>
-        
-                  <!-- Keywords Input -->
-                  <div>
-                    <label for="name" class="block text-sm font-semibold text-gray-700">Keywords</label>
-                    <input
-                      type="text"
-                      id="name"
-                      class="w-full px-4 mt-[6px] py-5 border rounded-md bg-white focus:outline-none focus:ring focus:ring-indigo-300 bg-gradient-to-r from-purple-100 to-purple-200 shadow-md rounded-lg"
-                      placeholder=""
-                    />
-                  </div>
+     <div class="w-full max-w-6xl bg-white shadow-lg rounded-lg overflow-hidden">
+    <!-- Header Navigation -->
+    <div class="px-6 py-4 border-b">
+      <nav class="text-sm text-gray-600">
+        <span class="hover:underline cursor-pointer">Dashboard</span>
+        <span class="mx-2">></span>
+        <span class="hover:underline cursor-pointer">Categories</span>
+        <span class="mx-2">></span>
+        <span class="font-semibold text-gray-800">New</span>
+      </nav>
+    </div>
 
-                  <div>
-                    <label for="name" class="block text-sm font-semibold text-gray-700">Keywords</label>
-                    <input
-                      type="text"
-                      id="name"
-                      class="w-full px-4 mt-[6px] py-7 border rounded-md bg-white focus:outline-none focus:ring focus:ring-indigo-300 bg-gradient-to-r from-purple-100 to-purple-200 shadow-md rounded-lg"
-                      placeholder=""
-                    />
-                  </div>
-        
-                  <!-- Note -->
-                   <div class="flex">
-                    <p class="rounded-full bg-[#A988F5] text-[white] px-[20px] text-[12px] font-bold h-[26px] pt-[3px]">Note</p>
-                  <p class="text-xs text-gray-500 ml-[10px] font-medium">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy elitr...
-                  </p>
-                </div>
-                  <!-- Submit Button -->
-                  <button
-                    type="submit"
-                    class="w-full bg-indigo-600 text-white py-4 rounded-full hover:bg-indigo-500"
-                  >
-                    Create
-                  </button>
-                </form>
-              </div>
-            </div>
-          </main>
+    <!-- Content Section -->
+    <div class="flex flex-col md:flex-row">
+      <!-- Left Section -->
+      <div class="w-full md:w-2/3 p-8">
+        <div class="flex flex-col items-center justify-center h-64 bg-gray-100 rounded-lg">
+          <div class="bg-gray-300 p-10 rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 7h18M3 12h18m-9 5h9"></path>
+            </svg>
+          </div>
+        </div>
+        <div class="mt-8 border-2 rounded-2xl p-2">
+          <h2 class="text-2xl font-semibold text-gray-800">Understanding various Categories in Kain'chi</h2>
+          <p class="mt-2 text-sm text-gray-600 leading-relaxed">
+            Fusce at nisi eget dolor rhoncus facilisis. Mauris ante nisi, consectetur at luctus et, porta ut dolor. Cras vehicula, mauris nec ultricies efficitur, nulla urna pharetra diam, sit amet eleifend erat orci vitae metus. Nulla eu consectetur ipsum.
+          </p>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <div class="w-full md:w-1/3  p-8">
+        <h3 class="text-lg font-semibold text-gray-700">Categories and Subcategories</h3>
+        <div class="mt-4 flex items-center space-x-6">
+          <!-- Radio Buttons -->
+          <div class="flex items-center">
+           <div class="flex items-center justify-center bg-gray-100">
+  <label for="toggle" class="relative cursor-pointer">
+    <input type="checkbox" id="toggle" class="sr-only peer" />
+    <div class="w-11 h-6 bg-gray-300 rounded-full peer-checked:bg-indigo-700 peer-focus:ring-2 peer-focus:ring-indigo-300 transition-all"></div>
+    <div
+      class="w-5 h-5 bg-white rounded-full shadow-md absolute top-0.5 left-0.5 peer-checked:translate-x-6 transition-all"
+    ></div>
+  </label>
+</div>
+            <label for="category" class="ml-1 text-sm text-gray-700">Category</label>
+          </div>
+          <div class="flex items-center">
+           <div class="flex items-center justify-center bg-gray-100">
+  <label for="tooggle" class="relative cursor-pointer">
+    <input type="checkbox" id="tooggle" class="sr-only peer" />
+    <div class="w-11 h-6 bg-gray-300 rounded-full peer-checked:bg-indigo-700 peer-focus:ring-2 peer-focus:ring-indigo-300 transition-all"></div>
+    <div
+      class="w-5 h-5 bg-white rounded-full shadow-md absolute top-0.5 left-0.5 peer-checked:translate-x-6 transition-all"
+    ></div>
+  </label>
+</div>
+            <label for="subcategory" class="ml-2 text-sm text-gray-700">Subcategory</label>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <form class="mt-6 space-y-4">
+          <div>
+            <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+            <input type="text" id="name" name="name" class="mt-1 py-2 bg-gray-100 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500">
+          </div>
+          <div>
+            <label for="keywords" class="block text-sm font-medium text-gray-700">Keywords</label>
+            <input type="text" id="keywords" name="keywords" class="mt-1 py-2 bg-gray-100 bg-gray-100block w-full border border-gray-300 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500">
+          </div>
+          <div>
+            <label for="additional-keywords" class="block text-sm font-medium text-gray-700">Additional Keywords</label>
+            <input type="text" id="additional-keywords" name="additional-keywords" class="mt-1 block w-full  py-2 bg-gray-100 border border-gray-300 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500">
+          </div>
+          <p class="text-xs text-gray-500">Note: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam nonummy.</p>
+          <button type="submit" class="w-full py-2 bg-indigo-700 text-white rounded-full shadow-md hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-1">
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
 </template>
 <script>
 export default {

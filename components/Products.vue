@@ -1,100 +1,109 @@
 <template lang="">
-    <div>
-        <main class="flex-1 px-6 pt-2 rounded-lg ">
-            
-            <header class="mb-8">
-                <p class="text-sm text-gray-600">Dashboard > Profiles > New</p>
-                <h1 class="mt-2 text-2xl font-bold text-gray-700">Products</h1>
-            </header>
-        
-            <div class="flex-1 bg-[#F0F0F2] rounded-lg shadow-lg p-6">
-                <h2 class="mb-6 text-xl font-bold text-gray-700">Products Name</h2>
-          
-                <!-- Form -->
-                <form class="grid grid-cols-1 gap-6 md:grid-cols-12 ">
-                  <!-- Left Section -->
-                  <div class="col-span-8 ">
-                    <div class="mb-4 ">
-                      <label for="title" class="block text-gray-600 font-semibold text-[14px] ">Title</label>
-                      <input type="text" id="title" placeholder="" class="w-full px-4 py-3 border bg-[#E8EAEB] mt-[10px] shadow-md rounded-md focus:outline-none focus:ring focus:ring-indigo-200">
-                      <div class="flex justify-end mt-[4px] text-[12px] text-[#BAA0F6]">
-                        <!-- <img src="./bxs--pencil.svg" class="h-[14px] mr-[6px] mt-[2px]" alt=""> -->
-                        <p class="font-semibold">0/20 - 70</p>
-                    </div>
-                    </div>
-                    <div class="mb-4 ">
-                        <label for="title" class="block text-gray-600 font-semibold text-[14px] ">Sub Title</label>
-                        <input type="text" id="title" placeholder="" class="w-full px-4 py-3 border bg-[#E8EAEB] mt-[10px] shadow-md rounded-md focus:outline-none focus:ring focus:ring-indigo-200">
-                        <div class="flex justify-end mt-[4px] text-[12px] text-[#BAA0F6]">
-                            <!-- <img src="./bxs--pencil.svg" class="h-[14px] mr-[6px] mt-[2px]" alt=""> -->
-                            <p class="font-semibold">0/20 - 70</p>
-                        </div>
-                      </div>
-                    <div>
-                        <div class="mb-4 ">
-                            <label for="title" class="block text-gray-600 font-semibold text-[14px] ">Sub Title</label>
-                            <input type="text" id="title" placeholder="" class="w-full px-4 py-14 border bg-[#E8EAEB] mt-[10px] shadow-md rounded-md focus:outline-none focus:ring focus:ring-indigo-200">
-                          </div>
-                        <div>
-                  </div>
-                    </div>
-                    <div class="flex justify-between text-[#BAA0F6] text-[12px]">
-                        <p>Your short description tag should be between 100-160 characters</p>
-                        <div class="flex">
-                            <!-- <img src="./bxs--pencil.svg" class="h-[14px] mr-[6px] mt-[2px]" alt=""> -->
-                            <p>0/20 - 70</p>
-                        </div>
+    
 
-                    </div>
-                  </div>
-          
-                  <!-- Right Section -->
-                  <div class="col-span-4">
-                    <div class="mb-4 bg-[#F1F1F9] px-4 py-6 rounded-2xl">
-                      <label for="availability" class="block text-gray-600 font-bold text-[14px]">Availability</label>
-                      <select id="availability" class="w-full px-4 py-2 border rounded-md bg-[#E4E4EC] text-[12px] mt-[6px] tracking-wide text-[#A1A0A3] focus:outline-none focus:ring focus:ring-indigo-200">
-                        <option>Available</option>
-                        <option>Out of Stock</option>
-                      </select>
-                    </div>
-                    <div class="border-t mt-6 pt-4 bg-[#F1F1F9] rounded-2xl px-4 ">
-                      <h3 class="font-bold text-[1.1rem] tracking-wide">Pricing</h3>
-                      <p class="text-[12px] text-[#A1A0A3] ">Add a reasonable price</p>
-                      <div class="mb-4  mt-[10px]">
-                        <label for="price" class="block text-gray-600 font-medium tracking-wide text-[13px]">Price</label>
-                        <div class="flex bg-[#E5E5ED] rounded-lg mt-[6px]">
-                            <!-- <img src="./carbon--currency-dollar.svg" class="bg-[#A988F5] w-[35px] " alt=""> -->
-                        <input type="text" id="price" placeholder="0.00" class="w-full px-4 py-2 bg-transparent rounded-md focus:outline-none focus:ring focus:ring-indigo-200">
-                    </div>
-                      </div>
-                      <div class="mb-4  mt-[10px]">
-                        <label for="price" class="block text-gray-600 font-medium tracking-wide text-[13px]">Old price</label>
-                        <div class="flex bg-[#E5E5ED] rounded-lg mt-[6px]">
-                            <!-- <img src="./carbon--currency-dollar.svg" class="bg-[#A988F5] w-[35px] " alt=""> -->
-                        <input type="text" id="price" placeholder="0.00" class="w-full px-4 py-2 bg-transparent rounded-md focus:outline-none focus:ring focus:ring-indigo-200">
-                    </div>
-                      </div>
-                      <div class="flex">
-                        <!-- <img src="./ic--baseline-star.svg" class="h-[18px]" alt=""> -->
-                        <p class="text-[12px] font-semibold text-[#656565] ml-[10px]">Set "Compare to" price</p>
-                      </div>
-                      <p class="text-[11px] mt-[10px] text-[#656565]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, aut ipsum? Similique</p>
-
-
-                      <div class="mb-4  mt-[10px]">
-                        <label for="price" class="block text-gray-600 font-medium tracking-wide text-[13px]">Cost per item</label>
-                        <div class="flex bg-[#E5E5ED] rounded-lg mt-[6px]">
-                            <!-- <img src="./carbon--currency-dollar.svg" class="bg-[#A988F5] w-[35px] " alt=""> -->
-                        <input type="text" id="price" placeholder="0.00" class="w-full px-4 py-2 bg-transparent rounded-md focus:outline-none focus:ring focus:ring-indigo-200">
-                    </div>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-           
-        </main>
+<div class="flex xl:flex-row flex-col gap-5">
+  <!-- Main Container -->
+  <div class="w-full max-w-full bg-white shadow-lg rounded-lg p-5">
+    <!-- Header Navigation -->
+    <div class="border-b pb-4 mb-6">
+      <nav class="text-sm text-gray-600">
+        <span class="hover:underline cursor-pointer">Dashboard</span>
+        <span class="mx-2">></span>
+        <span class="hover:underline cursor-pointer">Products</span>
+        <span class="mx-2">></span>
+        <span class="font-semibold text-gray-800">New</span>
+      </nav>
+      <h1 class="text-2xl font-semibold text-gray-800 mt-2">Products</h1>
     </div>
+
+    <!-- Form Section -->
+    <div class="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8">
+      <!-- Left Section -->
+      <div class="w-full ">
+        <div>
+          <h3 class="text-lg font-medium text-gray-700 mb-4">Product Name</h3>
+          <div class="space-y-6">
+            <!-- Title -->
+            <div>
+              <label for="title" class="block  text-sm font-medium text-gray-700">Title</label>
+              <input type="text" id="title" name="title" class="mt-1 py-2 bg-gray-100 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500">
+              <p class="text-xs text-gray-400 mt-1">0/20 - 70</p>
+            </div>
+            <!-- Subtitle -->
+            <div>
+              <label for="subtitle" class="block text-sm font-medium text-gray-700">Sub Title</label>
+              <input type="text" id="subtitle" name="subtitle" class="mt-1 py-2 bg-gray-100 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500">
+              <p class="text-xs text-gray-400 mt-1">0/20 - 70</p>
+            </div>
+            <!-- Short Description -->
+            <div>
+              <label for="short-description" class="block text-sm font-medium text-gray-700">Short description</label>
+              <textarea id="short-description" name="short-description" rows="4" class="mt-1 py-2 bg-gray-100 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500"></textarea>
+              <p class="text-xs text-purple-500 mt-1">Your short description tag should be between 100-160 characters</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+    
+    </div>
+  </div>
+
+    <div class="w-full xl:w-1/3 space-y-8">
+        <!-- Availability -->
+        <div class="bg-white border border-gray-300 rounded-xl p-4">
+          <h3 class="text-lg font-medium text-gray-700">Availability</h3>
+          <select id="availability" name="availability" class="mt-4 py-2 bg-gray-100 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500">
+            <option>Available</option>
+            <option>Unavailable</option>
+          </select>
+        </div>
+
+        <!-- Pricing -->
+        <div class="bg-white border border-gray-300 rounded-xl p-4">
+          <h3 class="text-lg font-medium text-gray-700">Pricing</h3>
+          <p class="text-sm text-gray-400 mt-1">Add a reasonable price</p>
+          <div class="space-y-4 mt-4">
+            <!-- Price -->
+            <div>
+              <label for="price" class="block text-sm font-medium text-gray-700">Price</label>
+              <div class="relative mt-1">
+                <span class="absolute inset-y-0 left-0 flex items-center text-center pl-4 text-white bg-indigo-700 px-4 rounded-lg">$</span>
+                <input type="number" id="price" name="price" class="pl-10 py-2 bg-gray-100 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500">
+              </div>
+            </div>
+            <!-- Old Price -->
+            <div>
+              <label for="old-price" class="block text-sm font-medium text-gray-700">Old price</label>
+              <div class="relative mt-1">
+                <span class="absolute inset-y-0 left-0 flex items-center text-center pl-4 text-white bg-indigo-700 px-4 rounded-lg">$</span>
+                <input type="number" id="old-price" name="old-price" class="pl-10 py-2 bg-gray-100 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500">
+              </div>
+            </div>
+            <!-- Compare to Price -->
+            <div class="flex items-start space-x-2">
+              <input type="checkbox" id="compare-price" name="compare-price" class="h-5 w-5 text-purple-600 focus:ring-purple-500 border-gray-300">
+              <div>
+                <label for="compare-price" class="text-sm font-medium text-gray-700">Set "Compare to" price</label>
+                <p class="text-xs text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <!-- Cost Per Item -->
+            <div>
+              <label for="cost-per-item" class="block text-sm font-medium text-gray-700">Cost per item</label>
+              <div class="relative mt-1">
+                <span class="absolute inset-y-0 left-0 flex items-center text-center pl-4 text-white bg-indigo-700 px-4 rounded-lg">$</span>
+                <input type="number" id="cost-per-item" name="cost-per-item" class="pl-10 block py-2 bg-gray-100 w-full border border-gray-300 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500">
+              </div>
+              <p class="text-xs text-gray-400 mt-1">Customers won’t see this</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+
 </template>
 <script>
 export default {

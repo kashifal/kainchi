@@ -1,7 +1,7 @@
 <template>
   <div class="bg-[#EBEBEB]">
     <!-- <Header /> -->
-    <Landing />
+    <!-- <Landing /> -->
     <!-- <Download /> -->
     <!-- <AboutUs />  -->
     <!-- <StartFree /> -->
@@ -17,7 +17,7 @@
     <!-- <Stores /> -->
     <!-- <Categories /> -->
     <!-- <StaffAccount /> -->
-    <!-- <Products /> -->
+    <Products />
     <!-- <Login /> -->
     <!-- <MoreInfo /> -->
     <!-- <Partners /> -->
