@@ -1,10 +1,10 @@
 <template lang="">
-   <div class="px-4">
-    <section class="  pt-[100px] pb-[100px]">
+   <div class="">
+    <section class="  pt-[100px] px-4 border-b-2 pb-12 mb-12">
 
-        <div class="max-w-7xl mx-auto">
-        <h1 class="text-[3rem]">Topic match for you</h1>
-        <div class="flex mt-[20px] gap-4 flex-wrap ">
+        <div class="max-w-7xl  mx-auto">
+        <h1 class="text-[3rem] text-[#212121]">Topic match for you</h1>
+        <div class="flex mt-10  gap-4 flex-wrap ">
             <button class="bg-[black] shadow-2xl text-[white] py-[10px] px-[50px] rounded-full">Design</button>
             <button class="bg-[white] hover:shadow-2xl  hover:bg-black hover:text-white text-[black] border-[1px] border-black py-[10px] px-[50px] rounded-full">Technology</button>
             <button class="bg-[white] hover:shadow-2xl  hover:bg-black hover:text-white text-[black] border-[1px] border-black py-[10px] px-[50px] rounded-full">Programming</button>
@@ -23,15 +23,15 @@
 
    
 
-        <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-10 xl:gap-8 bg-[#EBEBEB]">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-10 xl:gap-8">
     <div
       v-for="(card, index) in cards"
       :key="index"
-      class="bg-white rounded-2xl shadow-lg overflow-hidden"
+      class="bg-white  rounded-[30px] shadow-lg overflow-hidden"
     >
       <!-- Card Image -->
       <img
-  class="h-48 w-full object-fill"
+  class="h-60 w-full object-cover rounded-[30px]"
   :src="card.image"
 />
 
@@ -46,7 +46,7 @@
         <!-- User Info -->
         <div class="flex items-center mt-[20px]">
           <img
-            class="w-10 h-10 rounded-full mr-4"
+            class="w-10 h-10 object-cover rounded-full mr-4"
             :src="card.userImage"
             alt="User Image"
           />
@@ -104,7 +104,7 @@ export default {
             cards: [
                 {
                     image:
-                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuj0oHm1mEbQ3hs6H9SMOZtKLYo9eowgYyuw&s",
+                        "https://img.freepik.com/premium-photo/businessmen-join-hands-with-holograms-business-mobile_64478-1597.jpg?w=740",
                     title: "The Latest Update of Kainchi App",
                     description:
                         "The Privacy Policy is intended to clarify the manner in which your personal information.",
@@ -115,7 +115,7 @@ export default {
                 },
                 {
                     image:
-                        "https://i1.sndcdn.com/artworks-4xyMjv43zWgNyCvt-XtF19Q-t500x500.jpg",
+                        "https://img.freepik.com/premium-photo/businessmen-join-hands-with-holograms-business-mobile_64478-1597.jpg?w=740",
                     title: "Explore Vue.js 3 Features",
                     description:
                         "Learn about the exciting new features and improvements in Vue.js 3.",
@@ -126,7 +126,7 @@ export default {
                 },
                 {
                     image:
-                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRPofK1humKn9zXHsNUgNA5RlEyXiqomzn2w&s",
+                        "https://img.freepik.com/premium-photo/businessmen-join-hands-with-holograms-business-mobile_64478-1597.jpg?w=740",
                     title: "Advanced Tailwind Techniques",
                     description:
                         "Take your Tailwind CSS skills to the next level with these tips.",

@@ -1,8 +1,9 @@
 <template lang="">
-    <div class="max-w-full bg-[#F4EDF4] ">
+    <div class="max-w-full bg-[#F4F4F4] ">
         <Header  />
         <BlogHero />
         <BlogCards />
+        <MoreInfo />
         <Footer />
     </div>
 </template>

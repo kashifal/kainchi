@@ -62,8 +62,8 @@
   
           <!-- Account -->
           <div
-            class="items-center h-fit py-1 px-3 flex cursor-pointer justify-center rounded-full border-[1px]"
-            :class="isLandingPage ? 'text-white border-white hover:bg-white hover:text-black bg-white/40' : 'text-[#212121] border-[#DBDBDB] bg-[#DBDBDB]'"
+            class="items-center h-fit py-1.5 px-3.5 flex cursor-pointer justify-center rounded-full"
+            :class="isLandingPage ? 'text-white  hover:bg-white hover:text-black bg-white/40' : 'text-[#212121] bg-[#DBDBDB]'"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

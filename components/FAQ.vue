@@ -25,18 +25,19 @@
         <div class="flex items-center my-20">
             <div class="relative w-full overflow-hidden">
                 <div class="flex px-4">
-                    <div class="flex transition-transform duration-500 w-full" 
-                         :style="{ transform: `translateX(-${currentSlide * 100}%)` }">
+                    <div class="flex gap-8 transition-transform duration-500 w-[120%] -ml-[10%]" 
+                         :style="slideStyle">
                         <div v-for="(card, index) in cards" :key="index" 
-                             class="w-full min-w-full px-4 transition-all duration-500"
+                             class="w-[100vw] h-[50vh]  transition-all duration-500"
                              :class="{ 
-                                'scale-100 opacity-100': currentSlide === index,
-                                'scale-75 opacity-50': currentSlide !== index 
+                                'scale-100 translate-x-0 opacity-100 w-[150vw]': currentSlide === index,
+                                'scale-95 opacity-70 -translate-x-1/4': currentSlide > index,
+                                'scale-95 opacity-70 translate-x-1/4': currentSlide < index
                              }">
-                            <div class="bg-[#292929] shadow-[0px_3px_10px_#00000080] w-full p-6 md:p-8 lg:p-12 rounded-[20px] max-w-4xl mx-auto">
-                                <h1 class="text-[#FFF7C4] text-[20px] sm:text-[22px] md:text-[30px] lg:text-[35px] font-semibold">{{ card.title }}</h1>
-                                <p class="text-[16px] md:text-[18px] my-4 md:my-6">{{ card.description1 }}</p>
-                                <p class="text-[16px] md:text-[18px]">{{ card.description2 }}</p>
+                            <div class="bg-[#292929] flex items-start justify-center flex-col shadow-[0px_3px_10px_#00000080] h-full p-4 md:p-6 lg:p-10 rounded-[20px]">
+                                <h1 class="text-[#FFF7C4] text-[18px] sm:text-[20px] md:text-[24px] lg:text-[28px] font-semibold">{{ card.title }}</h1>
+                                <p class="text-[14px] md:text-[16px] my-3 md:my-4">{{ card.description1 }}</p>
+                                <p class="text-[14px] md:text-[16px]">{{ card.description2 }}</p>
                             </div>
                         </div>
                     </div>
@@ -68,7 +69,7 @@
 export default {
   data() {
     return {
-      currentSlide: 0,
+      currentSlide: 1,
       autoSlideInterval: null,
       cards: [
         {
@@ -96,22 +97,17 @@ export default {
     nextSlide() {
       this.currentSlide = (this.currentSlide + 1) % this.cards.length;
     },
-    startAutoSlide() {
-      this.autoSlideInterval = setInterval(() => {
-        this.nextSlide();
-      }, 5000); // Changes slide every 5 seconds
-    },
-    stopAutoSlide() {
-      if (this.autoSlideInterval) {
-        clearInterval(this.autoSlideInterval);
-      }
+    getTransformValue() {
+      const slideWidth = 33.33;
+      return `translateX(${-slideWidth * this.currentSlide + 33.33}%)`;
     }
   },
-  mounted() {
-    this.startAutoSlide();
-  },
-  beforeDestroy() {
-    this.stopAutoSlide();
+  computed: {
+    slideStyle() {
+      return {
+        transform: this.getTransformValue()
+      }
+    }
   }
 }
 </script>

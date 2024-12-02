@@ -1,6 +1,6 @@
 <template>
     <div class="max-w-7xl mx-auto px-4 py-32">
-      <div class="grid md:grid-cols-2 gap-8">
+      <div class="grid md:grid-cols-2 gap-12">
         <img
           src="/blockMAn.jpeg"
           alt="Main Image"
@@ -11,11 +11,11 @@
             Create and develop your business with
             <p class="text-[#3A0CA3] inline">Kain'chi</p>
           </h1>
-          <p class="text-[#212121] py-5">
+          <p class="text-[#212121] pt-3 pb-5">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
           </p>
   
-          <div class="mt-10 grid grid-cols-1 gap-6">
+          <div class="mt-6 grid grid-cols-1 gap-6">
             <div
               v-for="(card, index) in cards"
               :key="index"
@@ -23,7 +23,7 @@
             >
 
               <div
-                class="md:size-[94px] shrink-0 size-[70px] text-white bg-[#5E19CF] rounded-[10px] flex items-center justify-center"
+                class="md:size-[94px] shrink-0 text-[30px] size-[70px] text-white bg-[#5E19CF] rounded-[10px] flex items-center justify-center"
                 v-html="card.svg"
               ></div>
 
@@ -31,12 +31,12 @@
                 <h1 class="text-[#5E19CF] text-[22px] font-semibold">
                   {{ card.title }}
                 </h1>
-                <p class="text-[#656565] pt-[2px]">{{ card.description }}</p>
+                <p class="text-[#656565] md:text-[18px] pt-[2px]">{{ card.description }}</p>
               </div>
             </div>
           </div>
 
-          <button class="bg-[#212121] mt-10 hover:bg-opacity-90 rounded-full w-full px-4 text-center text-white text-[18px] md:text-[19px] py-2.5 md:py-3.5">Let's Start Building Your Store !</button>
+          <button class="bg-[#212121] mt-10 hover:bg-opacity-90 rounded-full w-full px-4 text-center text-white text-[18px] md:text-[19px] py-2.5 md:py-[18px]">Let's Start Building Your Store !</button>
         </div>
       </div>
     </div>

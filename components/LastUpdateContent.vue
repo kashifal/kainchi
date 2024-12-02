@@ -33,9 +33,9 @@
     </div>
 
     <div class="max-w-7xl px-4 mt-4 mx-auto">
-        <p class="md:text-5xl text-4xl text-[#3E2CA3] font-bold mt-[10px]">The Latest Update of Kainchi App</p>
+        <p class="md:text-5xl text-4xl text-[#3A0CA3] py-4 font-bold mt-[10px]">The Latest Update of Kainchi App</p>
 
-        <div class="flex mt-6 items-center">
+        <div class="flex mt-6 mb-5 items-center">
 
             <img class="w-10 h-10 rounded-full mr-4"
                 src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop"
@@ -50,14 +50,14 @@
         </div>
 
 
-        <div class="relative w-[100%] z-[2] mx-auto min-h-[500px] bg-cover bg-center rounded-3xl overflow-visible mt-[20px]"
+        <div class="relative w-[100%] z-[2] mx-auto min-h-[550px] bg-cover bg-center rounded-3xl overflow-visible mt-[20px]"
             style="background-image: url('https://www.shutterstock.com/image-photo/portrait-smiling-girl-listening-music-260nw-1754404112.jpg');">
 
             <!-- Div positioned at the bottom with content expanding below -->
     </div>
 
     <div
-                class="-mt-24 shadow-lg z-[4] px-7 relative max-w-[75rem] py-16 bg-opacity-60 backdrop-blur-3xl mx-auto   rounded-2xl  overflow-visible bg-white">
+                class="-mt-28 shadow-lg z-[4] px-7 relative max-w-[75rem] py-16 bg-opacity-80 backdrop-blur-3xl mx-auto   rounded-2xl  overflow-visible bg-white">
                 <div class=" w-[100%]   rounded-lg">
 
                 <p class="text-[14px] font-semibold">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
@@ -110,7 +110,7 @@
 
                     <div>
                         <img src="https://img.freepik.com/premium-photo/mobile-phone-hand-purple-background-with-sample-home-screen-icons-screen_746318-434.jpg"
-                           class="h-[350px] w-[100%] object-cover rounded-2xl"  alt="">
+                           class="h-[350px] w-[100%] object-cover rounded-3xl"  alt="">
                     </div>
 
                 </div>
@@ -153,17 +153,17 @@
 
         <div class="max-w-7xl mx-auto  mt-20">
 
-<h2 class="md:text-5xl text-4xl font-semibold text-center">Best article chosen for you</h2>
+<h2 class="md:text-5xl text-4xl xl:text-[55px] font-medium text-center">Best article chosen for you</h2>
 
 <div class="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-10 xl:gap-8 bg-[#EBEBEB]">
     <div
       v-for="(card, index) in cards"
       :key="index"
-      class="bg-white rounded-2xl shadow-lg overflow-hidden"
+      class="bg-white border border-[#DBDBDB] rounded-3xl shadow-lg overflow-hidden"
     >
       <!-- Card Image -->
       <img
-  class="h-48 w-full rounded-2xl object-cover"
+  class=" w-full h-[300px] rounded-3xl object-cover"
   :src="card.image"
 />
 
@@ -213,7 +213,7 @@ export default {
             cards: [
                 {
                     image:
-                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRETA8-hIYtCXKGK94qkMXgmYS_akoCNysafg&s",
+                        "https://img.freepik.com/premium-photo/mobile-phone-hand-purple-background-with-sample-home-screen-icons-screen_746318-434.jpg",
                     title: "The Latest Update of Kainchi App",
                     description:
                         "The Privacy Policy is intended to clarify the manner in which your personal information.",
@@ -224,7 +224,7 @@ export default {
                 },
                 {
                     image:
-                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnb9INrHOTGafLQ3ZuUdZqo2rRi_KiCFFZaw&s",
+                        "https://img.freepik.com/premium-photo/mobile-phone-hand-purple-background-with-sample-home-screen-icons-screen_746318-434.jpg",
                     title: "Explore Vue.js 3 Features",
                     description:
                         "Learn about the exciting new features and improvements in Vue.js 3.",
@@ -235,7 +235,7 @@ export default {
                 },
                 {
                     image:
-                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRPofK1humKn9zXHsNUgNA5RlEyXiqomzn2w&s",
+                        "https://img.freepik.com/premium-photo/mobile-phone-hand-purple-background-with-sample-home-screen-icons-screen_746318-434.jpg",
                     title: "Advanced Tailwind Techniques",
                     description:
                         "Take your Tailwind CSS skills to the next level with these tips.",

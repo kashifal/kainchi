@@ -3,6 +3,7 @@
         <Header />
         <StartFreeHero />
         <StartFreePlan />
+        <MoreInfo />
         <Footer />
     </div>
 </template>
