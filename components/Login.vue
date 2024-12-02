@@ -1,10 +1,10 @@
 <template lang="">
     <div>
         <div class="flex  px-4 min-h-screen items-center justify-center bg-gray-100">
-        <div class="flex w-full max-w-xl h-[95vh] lg:max-w-4xl overflow-hidden bg-white shadow-lg">
+        <div class="flex w-full max-w-xl min-h-[95vh] lg:max-w-4xl overflow-hidden bg-white shadow-lg">
           
-          <div class="flex-1 px-4 sm:px-8 py-4 text-center ">
-
+          <div class="flex-1 flex flex-col gap-7 h-full px-4 sm:px-8 py-4 text-center ">
+<div>
             <div class=" flex ">
                 <!-- <img src="./tdesign--letters-k white.svg" class="h-[40px] invert " alt=""> -->
                 <p class="text-[18px] text-black tracking-wider font-semibold mt-[7px] ml-[0px]">Kainchi</p>
@@ -18,12 +18,12 @@
                 <span>Log in with Google</span>
               </button>
             </div>
-      
-            <div class="my-6 flex items-center">
+            <div class="mt-10 flex items-center">
               <div class="flex-1 border-t border-gray-300"></div>
               <p class="px-4 text-sm text-gray-600">or</p>
               <div class="flex-1 border-t border-gray-300"></div>
             </div>
+          </div>
       
             <form action="#" class="space-y-4">
               <div>
@@ -79,10 +79,10 @@
                   </template>
                 </div>
                 <div class="flex gap-2 mt-8">
-                          <div @click="prevSlide" class="size-[50px] rounded-full flex items-center justify-center cursor-pointer hover:bg-[#212121] hover:text-white border border-[#212121] ">
+                          <div @click="prevSlide" class="size-[50px] rounded-full flex items-center justify-center cursor-pointer hover:bg-[#212121] hover:text-white border hover:border-[#212121] border-white ">
                             <svg class="size-8" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M10.733 19.79a.75.75 0 0 0 1.034-1.086L5.516 12.75H20.25a.75.75 0 0 0 0-1.5H5.516l6.251-5.955a.75.75 0 0 0-1.034-1.086l-7.42 7.067a1 1 0 0 0-.3.58a.8.8 0 0 0 .001.289a1 1 0 0 0 .3.579z"/></svg>
                           </div>
-                          <div @click="nextSlide" class="size-[50px] rotate-180 rounded-full flex items-center justify-center cursor-pointer hover:bg-[#212121] hover:text-white border border-[#212121] ">
+                          <div @click="nextSlide" class="size-[50px] rotate-180 rounded-full flex items-center justify-center cursor-pointer hover:bg-[#212121] hover:text-white border border-white hover:border-[#212121] ">
                             <svg class="size-8" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M10.733 19.79a.75.75 0 0 0 1.034-1.086L5.516 12.75H20.25a.75.75 0 0 0 0-1.5H5.516l6.251-5.955a.75.75 0 0 0-1.034-1.086l-7.42 7.067a1 1 0 0 0-.3.58a.8.8 0 0 0 .001.289a1 1 0 0 0 .3.579z"/></svg>
                           </div>
                         </div>
