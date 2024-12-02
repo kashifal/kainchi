@@ -1,6 +1,6 @@
 <template lang="">
      <div class="max-w-full px-4 mx-auto">
-        <div class="mx-auto text-center max-w-7xl">
+        <div class="mx-auto text-center    max-w-7xlBig">
             <div class="relative flex items-center justify-center">
                 <h1 class="text-[2.5rem] font-bold text-[#3E2CA3]">ABOUT US</h1>
                 <div class="absolute left-[70%] text-2xl rotate-12 top-[20%] h-[25px]">
@@ -12,7 +12,7 @@
 
         <div class="relative isolate z-10 mt-[15px]">
             <div class="overflow-hidden">
-                <div class="px-4 pt-3 pb-10 mx-auto max-w-7xl">
+                <div class="px-4 pt-3 pb-10 mx-auto    max-w-7xlBig">
                     <div class="max-w-full mx-auto overflow-hidden gap-x-8 lg:mx-0 lg:items-center">
                         <div class="flex justify-center gap-3 mt-3 lg:mt-0">
                             <div class="flex-none w-44 sm:pt-5 lg:pt-3">

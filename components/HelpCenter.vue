@@ -2,7 +2,7 @@
     <div class="max-w-full bg-[#F4F4F4]">
       <div class="absolute bg-[#D882D9] z-[2] bg-opacity-60 blur-[80px] rounded-full size-60 top-0 left-0"></div>
       <div class="absolute bg-[#D882D9]  bg-opacity-60 blur-[80px] rounded-md w-60 h-[80vh] top-0 right-0"></div>
-<section class="overflow-hidden mx-6  relative z-[4] mt-6 rounded-3xl">
+<section class="overflow-hidden mx-6 max-w-7xlBig mx-auto relative z-[4] mt-6 rounded-3xl">
     <div class="relative w-full  mx-auto rounded-3xl  md:h-[550px] g-full bg-cover overflow-hidden  bg-start bg-no-repeat "
         style="background-image: url('https://img.freepik.com/free-vector/businessman-surrounded-by-opponents_23-2147620849.jpg?t=st=1733087467~exp=1733091067~hmac=29867c7686fd27c00206f89772746c31b49cd02f7ef42900c947f6296cbad79c&w=740');">
 
@@ -23,7 +23,7 @@
 
 
     <section class="bg-[#F4F4F4] py-6">
-  <div class="max-w-full mx-6 py-6 px-4">
+  <div class="max-w-7xlBig mx-auto mx-6 py-6 px-4">
     <h2 class="text-lg md:text-[26px] uppercase text-[#A988F5] mb-2">Introduction</h2>
     <p class="text-[#212121] text-[22px] font-extralight leading-relaxed">
       Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
@@ -36,10 +36,10 @@
 
 <div class="bg-[#FAFAFA]">
   <!-- FAQ Section -->
-  <section class=" grid md:grid-cols-2 grid-cols-1  gap-6 px-5 py-12">
+  <section class=" grid md:grid-cols-2 max-w-7xlBig mx-auto grid-cols-1  gap-6 px-5 py-12">
     <div class="md:mt-5">
     <h2 class="text-3xl xl:text-[36px] text-[#3A0CA3] font-semibold uppercase text-[#3A0CA3] mb-4">Frequently Asked Questions</h2>
-    <p class="text-[#212121]  md:max-w-[68%] mb-8 mt-5">
+    <p class="text-[#212121]   mb-8 mt-5">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
     </p>
     </div>
@@ -82,7 +82,7 @@
 
   <!-- Contact Section -->
   <section class="bg-white rounded-b-3xl py-8">
-    <div class="  justify-cente px-6 mx-auto md:justify-between flex md:flex-row flex-col items-center text-center md:text-start">
+    <div class="  justify-cente max-w-7xlBig mx-auto px-6 xl:px-0 mx-auto md:justify-between flex md:flex-row flex-col items-center text-center md:text-start">
       <div class="md:flex-row justify-center md:items-center items-center flex flex-col gap-4">
 
 <div class="flex items-center size-[118px] bg-white shadow-xl flex items-center justify-center rounded-full gap-2">K</div>

@@ -16,8 +16,8 @@
     <!-- <StaffAccount /> -->
     <!-- <Products /> -->
     <!-- <Login /> -->
-    <!-- <MoreInfo /> -->
-    <!-- <Partners /> -->
+    <MoreInfo />
+    <Partners />
     <Footer />
   </div>
 </template>

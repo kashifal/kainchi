@@ -1,7 +1,7 @@
 <template>
     <header class="relative z-[4]   py-2">
       <navbar class="mt-[100px]">
-        <nav class="mx-auto max-w-7xl py-4 flex items-center justify-between px-4">
+        <nav class="mx-auto    max-w-7xlBig py-4 flex items-center justify-between px-4">
           <div class="logo flex items-center gap-2">
             <!-- Menu Icon -->
             <div class="md:hidden cursor-pointer block" @click="toggleDrawer">

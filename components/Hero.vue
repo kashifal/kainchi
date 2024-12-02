@@ -2,7 +2,7 @@
    
    <section class="banner text-[#ffffff] flex items-center  -mt-[85px] z-[2] min-h-screen  pb-[120px] relative bg-[#000000]">
         <canvas ref="globeCanvas" class="absolute top-0 left-1/2 -translate-x-1/2 w-[100%] h-[95%] mx-auto rounded-full"></canvas>
-        <div class="mx-auto w-full max-w-7xl px-4 pt-[140px] relative z-10">
+        <div class="mx-auto w-full    max-w-7xlBig px-4 pt-[140px] relative z-10">
             <h2 class="md:text-[3rem] text-3xl leading-tight font-bold ">
                 WELCOME TO <br />
                 KAIN'CHI,THE FUTURE<br />OF WEB SHOPING

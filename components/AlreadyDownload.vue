@@ -1,6 +1,6 @@
 <template lang="">
     <div class="bg-white mb-40 py-40 lg:py-20 rounded-b-[60px] md:rounded-b-[100px] shadow-[0_100px_99px_#00000008]">
-      <div class="max-w-7xl min-h-[500px] h-full mx-auto px-4 grid lg:grid-cols-2 gap-10 lg:gap-2">
+      <div class="   max-w-7xlBig min-h-[500px] h-full mx-auto px-4 grid lg:grid-cols-2 gap-10 lg:gap-2">
         <div class="flex flex-col items-start justify-between h-full gap-3">
           <div>
             <h1

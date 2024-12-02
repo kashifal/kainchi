@@ -1,7 +1,7 @@
 <template lang="">
      <div class="absolute bg-[#D882D9] z-[2] bg-opacity-60 blur-[80px] rounded-full size-60 top-0 left-0"></div>
      <div class="absolute bg-[#D882D9] z-[2]  bg-opacity-60 blur-[80px] rounded-md w-60 h-[80vh] top-0 right-0"></div>
-    <div class="max-w-7xl z-[4] relative px-4 mx-auto flex gap-5 justify-between items-end flex-wrap pt-8">
+    <div class="   max-w-7xlBig z-[4] relative px-4 mx-auto flex gap-5 justify-between items-end flex-wrap pt-8">
         <!-- First Div: Published Info -->
         <div class="flex space-x-6 text-gray-800">
             <p>Published in <span class="font-semibold">Kainchi</span></p>
@@ -32,7 +32,7 @@
         </div>
     </div>
 
-    <div class="max-w-7xl px-4 mt-4 mx-auto">
+    <div class="   max-w-7xlBig px-4 mt-4 mx-auto">
         <p class="md:text-5xl text-4xl text-[#3A0CA3] py-4 font-bold mt-[10px]">The Latest Update of Kainchi App</p>
 
         <div class="flex mt-6 mb-5 items-center">
@@ -125,7 +125,7 @@
                     Laboriosam iste inventore voluptatibus dicta.</p>
 
 
-                    <div class="relative max-w-7xl lg:w-[70%] mx-auto h-[350px] mt-[30px] bg-black flex items-center justify-center rounded-lg overflow-hidden">
+                    <div class="relative    max-w-7xlBig lg:w-[70%] mx-auto h-[350px] mt-[30px] bg-black flex items-center justify-center rounded-lg overflow-hidden">
                         <!-- Background Image -->
                         <div class="absolute w-full inset-0 bg-cover bg-center" style="background-image: url('https://img.freepik.com/premium-photo/businessmen-join-hands-with-holograms-business-mobile_64478-1597.jpg?w=740');"></div>
                     
@@ -151,7 +151,7 @@
             <!-- Place the articles here-->
         </div>
 
-        <div class="max-w-7xl mx-auto  mt-20">
+        <div class="   max-w-7xlBig mx-auto  mt-20">
 
 <h2 class="md:text-5xl text-4xl xl:text-[55px] font-medium text-center">Best article chosen for you</h2>
 

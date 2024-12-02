@@ -2,7 +2,7 @@
       <section class="bg-[#EBEBEB] mx-4 xl:mx-0 md:h-[550px] ">
         <div class="absolute bg-[#D882D9] z-[2] bg-opacity-60 blur-[80px] rounded-full size-60 top-0 left-0"></div>
         <div class="absolute bg-[#D882D9]  bg-opacity-60 blur-[80px] rounded-md w-60 h-[130vh] top-0 right-0"></div>
-        <div class="relative max-w-7xl mx-auto px-4 rounded-2xl mt-6 md:rounded-[50px] overflow-hidden h-full  bg-cover bg-center  bg-no-repeat "
+        <div class="relative    max-w-7xlBig mx-auto px-4 rounded-2xl mt-6 md:rounded-[50px] overflow-hidden h-full  bg-cover bg-center  bg-no-repeat "
             style="background-image: url('https://plus.unsplash.com/premium_photo-1671195917155-d1f22226dd80?q=80&w=1442&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
 
             <!-- Overlay for darkening the background if needed -->

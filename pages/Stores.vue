@@ -1,12 +1,12 @@
 <template lang="">
     <div>
     <div class="mx-auto bg-gray-100">
-      <header class="flex w-full pt-10 max-w-7xl mx-auto xl:flex-row flex-col items-center">
+      <header class="flex w-full pt-10    max-w-7xlBig mx-auto xl:flex-row flex-col items-center">
                 <h1 class="text-2xl mr-7 font-semibold text-gray-700">Stores</h1>
 
                 <!-- Number Line Se
                  ction -->
-                <div class="flex mx-auto max-w-7xl">
+                <div class="flex mx-auto    max-w-7xlBig">
                     <div class="flex items-center justify-around w-fit ">
                         <div
                             @click="activeStore = 1"

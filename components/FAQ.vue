@@ -28,13 +28,13 @@
                     <div class="flex gap-8 transition-transform duration-500 w-[120%] -ml-[10%]" 
                          :style="slideStyle">
                         <div v-for="(card, index) in cards" :key="index" 
-                             class="w-[100vw] h-[50vh]  transition-all duration-500"
+                             class="w-[150vw] md:w-[100vw] md:h-[50vh] h-full transition-all duration-500"
                              :class="{ 
-                                'scale-100 translate-x-0 opacity-100 w-[150vw]': currentSlide === index,
-                                'scale-95 opacity-70 -translate-x-1/4': currentSlide > index,
-                                'scale-95 opacity-70 translate-x-1/4': currentSlide < index
+                                'scale-100 translate-x-0 opacity-100 w-[200%] sm:w-[150vw]': currentSlide === index,
+                                'sm:scale-95 opacity-70 -translate-x-1/4': currentSlide > index,
+                                'sm:scale-95 opacity-70 translate-x-1/4': currentSlide < index
                              }">
-                            <div class="bg-[#292929] flex items-start justify-center flex-col shadow-[0px_3px_10px_#00000080] h-full p-4 md:p-6 lg:p-10 rounded-[20px]">
+                            <div class="bg-[#292929] flex items-start justify-center flex-col shadow-[0px_3px_10px_#00000080] h-full p-5 md:p-6 lg:p-10 rounded-[20px]">
                                 <h1 class="text-[#FFF7C4] text-[18px] sm:text-[20px] md:text-[24px] lg:text-[28px] font-semibold">{{ card.title }}</h1>
                                 <p class="text-[14px] md:text-[16px] my-3 md:my-4">{{ card.description1 }}</p>
                                 <p class="text-[14px] md:text-[16px]">{{ card.description2 }}</p>
@@ -72,7 +72,7 @@ export default {
       currentSlide: 1,
       autoSlideInterval: null,
       cards: [
-        {
+      {
           title: "Is Kain'chi right for my business ?",
           description1: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.",
           description2: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."

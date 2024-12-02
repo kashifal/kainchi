@@ -3,7 +3,7 @@
         <div class="w-full h-[50%] absolute left-0 z-[20] bottom-0">
             <img class="w-full h-full object-cover " style="transform: rotateY(180deg);" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462576629_595448876240740_6751083868429986830_n.png?_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=i0luJGrtXwYQ7kNvgG4ogNh&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QELumu5FGlHZUFgebp6css8R37DhwYoNLw9bcUbhuQ_rQ&oe=6774D999" />
         </div>
-        <div class="justify-center relative z-[40] max-w-full px-2 mx-auto text-center">
+        <div class="max-x-7xlBig mx-auto justify-center relative z-[40] max-w-full px-2 mx-auto text-center">
             <div>
                 <h2 class="leading-none text-[2.1rem] xl:text-[46px] font-semibold text-[#3E2CA3]">BENEFITS OF OUR<br>PARTNERSHIP</h2>
                 <p class="text-[14px] xl:text-[18px] mt-[20px] ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex dolorem<br> at facere cupiditate perspiciatis nihil, in dolorum delectus, mollitia ea voluptas<br> officia odio harum! Assumenda consectetur laudantium minima eius! Officia.</p>
