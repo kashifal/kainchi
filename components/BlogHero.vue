@@ -3,13 +3,15 @@
         <div class="absolute bg-[#D882D9] z-[2] bg-opacity-60 blur-[80px] rounded-full size-60 top-0 left-0"></div>
       <div class="absolute bg-[#D882D9]  bg-opacity-60 blur-[80px] rounded-md w-60 h-[80vh] top-0 right-0"></div>
         <section class="relative z-[4] ">
-        <div class="    max-w-7xlBigBig md:h-[400px] mt-6 bg-[url('https://e0.pxfuel.com/wallpapers/647/728/desktop-wallpaper-black-purple-black-and-purple-shards.jpg')] sm:py-10 py-20 px-4 mx-auto rounded-3xl flex items-center jsutify-center flex-col h-full sm:min-h-[80vh] bg-cover bg-center bg-no-repeat">
-    
+        <div class="relative  min-h-[550px]  max-w-7xlBig mx-auto px-4 rounded-2xl mt-6 md:rounded-[50px] overflow-hidden h-full  bg-cover bg-center flex items-center justify-center bg-no-repeat "
+        style="background-image: url('https://e0.pxfuel.com/wallpapers/647/728/desktop-wallpaper-black-purple-black-and-purple-shards.jpg');"
+        >
+            
             
             <div class="absolute inset-0 bg-black opacity-0 rounded-2xl"></div>
     
             
-            <div class="relative flex justify-center md:py-10 py-20 items-center m-auto">
+            <div class="relative flex h-full  justify-center md:py-10 py-20 items-center m-auto">
                 <div class="text-center text-white">
 
                     <h1 class="md:text-5xl xl:text-[55px] text-4xl font-bold tracking-wide ">
