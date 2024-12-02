@@ -1,10 +1,11 @@
 <template lang="">
-     <main class="flex-1 xl:pl-[19rem] h-full px-8 pt-36 pb-20 rounded-lg bg-[#E3E3E5] ">
-            <div class="mb-8">
+     <main class="flex-1 xl:pl-[19rem] min-h-screen h-full px-8 pt-28 pb-20 rounded-lg  bg-[#E3E3E5]">
+        <div class="backdrop-blur-sm h-[90vh] overflow-auto bg-opacity-20 p-6 rounded-3xl border bg-white border-white/20 shadow-lg custom-scrollbar">
+            <div class="mb-8 ">
                 <h2 class="text-[1.5rem] font-bold text-gray-800">Hello Webmaster, Welcome to Kain'chi</h2>
-                <div class="flex bg-[#E9E9EE] py-[6px] pl-[10px] rounded-lg mt-[20px]">
-                    <!-- <img src="./material-symbols--star.svg" class="h-[20px]" alt=""> -->
-                    <p class=" text-gray-600 ml-[10px]">
+                <div class="flex bg-[#E9E9EE]/50 backdrop-blur-sm py-[6px] pl-[10px] rounded-lg mt-[20px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    <p class="text-gray-600 ml-[10px]">
                         Before you start using Kainchi, we suggest you
                         <a href="#" class="text-purple-600 hover:underline">Watch this demo.</a>
                     </p>
@@ -66,13 +67,37 @@
                     </div>
                 </div>
             </div>
+        </div>
         </main>
 </template>
 <script>
-export default {
-    
-}
+
 </script>
-<style lang="">
-    
+<style lang="css">
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* For Firefox */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.4) rgba(255, 255, 255, 0.1);
+}
 </style>
