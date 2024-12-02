@@ -5,7 +5,6 @@
     <!-- <Download /> -->
     <!-- <AboutUs />  -->
     <!-- <StartFree /> -->
-    <!-- <Test /> -->
     <!-- <Company /> -->
     <!-- <PrivacyPolicy /> -->
     <!-- <Blog /> -->
@@ -40,6 +39,5 @@ import Categories from './Categories.vue'
 import StaffAccount from './StaffAccount.vue'
 import Products from './Products.vue'
 import Login from './Login.vue'
-import Test from './Test.vue'
 import SignUp from './SignUp.vue'
 </script>
