@@ -1,21 +1,21 @@
 <template>
     <div class="max-w-7xl mx-auto px-4 py-32">
-      <div class="grid lg:grid-cols-2 gap-8">
+      <div class="grid md:grid-cols-2 gap-8">
         <img
           src="/blockMAn.jpeg"
           alt="Main Image"
           class="w-full object-cover"
         />
         <div>
-          <h1 class="lg:text-6xl text-[#212121] leading-loose font-semibold">
+          <h1 class="lg:text-[50px] text-4xl text-[#212121] leading-tight font-semibold">
             Create and develop your business with
-            <p class="text-[#3A0CA3]">Kain'chi</p>
+            <p class="text-[#3A0CA3] inline">Kain'chi</p>
           </h1>
           <p class="text-[#212121] py-5">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
           </p>
   
-          <div class="mt-10 grid grid-cols-1 gap-4">
+          <div class="mt-10 grid grid-cols-1 gap-6">
             <div
               v-for="(card, index) in cards"
               :key="index"
@@ -36,7 +36,7 @@
             </div>
           </div>
 
-          <button class="bg-[#212121] mt-10 hover:bg-opacity-90 rounded-full w-full px-4 text-center text-white text-[18px] md:text-[22px] py-2.5 md:py-3.5">Let's Start Building Your Store !</button>
+          <button class="bg-[#212121] mt-10 hover:bg-opacity-90 rounded-full w-full px-4 text-center text-white text-[18px] md:text-[19px] py-2.5 md:py-3.5">Let's Start Building Your Store !</button>
         </div>
       </div>
     </div>

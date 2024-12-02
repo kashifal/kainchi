@@ -1,6 +1,8 @@
 <template lang="">
-    <div>
+    <div class="bg-[#F4EDF4]">
+        <Header />
         <HelpCenter />
+        <Footer />
     </div>
 </template>
 <script>

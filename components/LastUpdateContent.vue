@@ -1,5 +1,7 @@
 <template lang="">
-    <div class="max-w-7xl px-4 mx-auto flex gap-5 justify-between items-end flex-wrap pt-8">
+     <div class="absolute bg-[#D882D9] z-[2] bg-opacity-60 blur-[80px] rounded-full size-60 top-0 left-0"></div>
+     <div class="absolute bg-[#D882D9] z-[2]  bg-opacity-60 blur-[80px] rounded-md w-60 h-[80vh] top-0 right-0"></div>
+    <div class="max-w-7xl z-[4] relative px-4 mx-auto flex gap-5 justify-between items-end flex-wrap pt-8">
         <!-- First Div: Published Info -->
         <div class="flex space-x-6 text-gray-800">
             <p>Published in <span class="font-semibold">Kainchi</span></p>
@@ -48,14 +50,14 @@
         </div>
 
 
-        <div class="relative w-[100%] z-[2] mx-auto min-h-[400px] bg-cover bg-center rounded-3xl overflow-visible mt-[20px]"
-            style="background-image: url('https://images.unsplash.com/photo-1596701008477-309aeefa29ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGElMjBsYXB0b3AlMjB3aXRoJTIwYmxhY2slMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww');">
+        <div class="relative w-[100%] z-[2] mx-auto min-h-[500px] bg-cover bg-center rounded-3xl overflow-visible mt-[20px]"
+            style="background-image: url('https://www.shutterstock.com/image-photo/portrait-smiling-girl-listening-music-260nw-1754404112.jpg');">
 
             <!-- Div positioned at the bottom with content expanding below -->
     </div>
 
     <div
-                class="-mt-20 shadow-lg z-[4] px-7 relative max-w-[75rem] py-16 bg-opacity-90 backdrop-blur-3xl mx-auto   rounded-2xl  overflow-visible bg-white">
+                class="-mt-24 shadow-lg z-[4] px-7 relative max-w-[75rem] py-16 bg-opacity-60 backdrop-blur-3xl mx-auto   rounded-2xl  overflow-visible bg-white">
                 <div class=" w-[100%]   rounded-lg">
 
                 <p class="text-[14px] font-semibold">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
@@ -65,9 +67,9 @@
                     fugiat sequi aut, iure vel assumenda aperiam dignissimos magni aspernatur repellendus tempora!
                     Laboriosam iste inventore voluptatibus dicta.</p>
 
-                <h2 class="font-bold text-[1.5rem] mt-[20px]">First thing you need to know about Kainchi 0.1</h2>
+                <h2 class="font-bold mt-5 text-[1.5rem] mt-[20px]">First thing you need to know about Kainchi 0.1</h2>
 
-                <p class="text-[14px] mt-[10px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui tempore
+                <p class="text-[14px] mt-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui tempore
                     aperiam voluptates deleniti
                     doloribus hic aut velit corrupti modi id tenetur totam ipsa nostrum consequuntur mollitia ut
                     quisquam, nihil praesentium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -76,7 +78,7 @@
 
                 <h2 class="font-bold text-[1.5rem] mt-[20px]">Manage your earning</h2>
 
-                <p class="text-[14px] mt-[10px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui tempore
+                <p class="text-[14px] mt-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui tempore
                     aperiam voluptates deleniti
                     doloribus hic aut velit corrupti modi id tenetur totam ipsa nostrum consequuntur mollitia ut
                     quisquam, nihil praesentium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -87,7 +89,7 @@
 
                 <div class="grid gap-3 sm:grid-cols-2">
                     <div>
-                        <p class="text-[14px] mt-[10px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
+                        <p class="text-[14px] mt-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
                             tempore aperiam voluptates deleniti
                             doloribus hic aut velit corrupti modi id tenetur totam ipsa nostrum consequuntur mollitia ut
                             quisquam, nihil praesentium! Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -107,7 +109,7 @@
                     </div>
 
                     <div>
-                        <img src="https://images.unsplash.com/photo-1502736842968-bcaab72d0700?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGElMjBwaG9uZSUyMHdpdGglMjBibGFjayUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"
+                        <img src="https://img.freepik.com/premium-photo/mobile-phone-hand-purple-background-with-sample-home-screen-icons-screen_746318-434.jpg"
                            class="h-[350px] w-[100%] object-cover rounded-2xl"  alt="">
                     </div>
 
@@ -123,9 +125,9 @@
                     Laboriosam iste inventore voluptatibus dicta.</p>
 
 
-                    <div class="relative max-w-7xl mx-auto h-[350px] mt-[30px] bg-black flex items-center justify-center rounded-lg overflow-hidden">
+                    <div class="relative max-w-7xl lg:w-[70%] mx-auto h-[350px] mt-[30px] bg-black flex items-center justify-center rounded-lg overflow-hidden">
                         <!-- Background Image -->
-                        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1596701008477-309aeefa29ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGElMjBsYXB0b3AlMjB3aXRoJTIwYmxhY2slMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww');"></div>
+                        <div class="absolute w-full inset-0 bg-cover bg-center" style="background-image: url('https://img.freepik.com/premium-photo/businessmen-join-hands-with-holograms-business-mobile_64478-1597.jpg?w=740');"></div>
                     
                         <!-- Play Button -->
                         <button class="relative z-10 flex items-center justify-center w-16 h-16 bg-white text-black rounded-full shadow-lg hover:bg-gray-200">
@@ -161,7 +163,7 @@
     >
       <!-- Card Image -->
       <img
-  class="h-48 w-full rounded-2xl  object-cover"
+  class="h-48 w-full rounded-2xl object-cover"
   :src="card.image"
 />
 
@@ -197,7 +199,7 @@
 
 </div>
     
-<div class="bg-[#212121] text-white rounded-2xl lg:rounded-[40px] h-[200px] mt-28 mb-10 flex items-center justify-between gap-2 flex-wrap px-8">
+<div class="bg-[#212121] text-white rounded-2xl lg:rounded-[40px] min-h-[150px] mt-28 mb-10 flex items-center justify-between gap-2 flex-wrap px-8">
     <h1 class="lg:text-[30px] text-[25px]">Contribute with us now to share your ideas to million members</h1>
     <button class="bg-white rounded-full px-10 py-2.5 text-black">Get in Touch</button>
 </div>
@@ -241,6 +243,30 @@ export default {
                         "https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=100&h=100&fit=crop",
                     author: "John Smith",
                     readTime: "3 min Read",
+                },
+                {
+                    image: "https://img.freepik.com/premium-photo/mobile-phone-hand-purple-background-with-sample-home-screen-icons-screen_746318-434.jpg",
+                    title: "Building Scalable Vue Applications",
+                    description: "Best practices and architecture patterns for large-scale Vue.js applications.",
+                    userImage: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
+                    author: "Sarah Wilson",
+                    readTime: "6 min Read",
+                },
+                {
+                    image: "https://img.freepik.com/premium-photo/mobile-phone-hand-purple-background-with-sample-home-screen-icons-screen_746318-434.jpg",
+                    title: "Modern CSS Layout Techniques",
+                    description: "Master CSS Grid, Flexbox, and responsive design patterns for modern web layouts.",
+                    userImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+                    author: "Michael Chen",
+                    readTime: "4 min Read",
+                },
+                {
+                    image: "https://img.freepik.com/premium-photo/mobile-phone-hand-purple-background-with-sample-home-screen-icons-screen_746318-434.jpg",
+                    title: "State Management in Vue 3",
+                    description: "Comparing Vuex, Pinia, and other state management solutions for Vue applications.",
+                    userImage: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
+                    author: "Emily Rodriguez",
+                    readTime: "5 min Read",
                 },
             ],
         };

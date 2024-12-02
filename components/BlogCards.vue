@@ -1,15 +1,15 @@
 <template lang="">
    <div class="px-4">
-    <section class="bg-[#EBEBEB]  pt-[100px] pb-[100px]">
+    <section class="  pt-[100px] pb-[100px]">
 
         <div class="max-w-7xl mx-auto">
         <h1 class="text-[3rem]">Topic match for you</h1>
         <div class="flex mt-[20px] gap-4 flex-wrap ">
-            <button class="bg-[black] text-[white] py-[10px] px-[50px] rounded-full">Design</button>
-            <button class="bg-[white] hover:bg-black hover:text-white text-[black] border-[1px] border-black py-[10px] px-[50px] rounded-full">Technology</button>
-            <button class="bg-[white] hover:bg-black hover:text-white text-[black] border-[1px] border-black py-[10px] px-[50px] rounded-full">Programming</button>
-            <button class="bg-[white] hover:bg-black hover:text-white text-[black] border-[1px] border-black py-[10px] px-[50px] rounded-full">Updates</button>
-            <button class="bg-[white] hover:bg-black hover:text-white text-[black] border-[1px] border-black py-[10px] px-[50px] rounded-full">Programming</button>
+            <button class="bg-[black] shadow-2xl text-[white] py-[10px] px-[50px] rounded-full">Design</button>
+            <button class="bg-[white] hover:shadow-2xl  hover:bg-black hover:text-white text-[black] border-[1px] border-black py-[10px] px-[50px] rounded-full">Technology</button>
+            <button class="bg-[white] hover:shadow-2xl  hover:bg-black hover:text-white text-[black] border-[1px] border-black py-[10px] px-[50px] rounded-full">Programming</button>
+            <button class="bg-[white] hover:shadow-2xl  hover:bg-black hover:text-white text-[black] border-[1px] border-black py-[10px] px-[50px] rounded-full">Updates</button>
+            <button class="bg-[white] hover:shadow-2xl  hover:bg-black hover:text-white text-[black] border-[1px] border-black py-[10px] px-[50px] rounded-full">Programming</button>
         </div>
     </div>
 
@@ -18,7 +18,7 @@
 
 
 
-    <section class="bg-[#EBEBEB] pb-[100px]">
+    <section class="pb-[100px]">
    
 
    
