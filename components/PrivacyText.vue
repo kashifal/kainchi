@@ -1,14 +1,14 @@
 <template lang="">
-<section class="bg-[#EBEBEB] pt-[100px]">
-    <div class="max-w-7xl px-4 mx-auto pb-[100px]">
-        <div class="max-w-[74rem]  mx-auto">
+<section class=" max-w-[100%]  relative mx-auto z-[9999999999999999999999999999999] ">
+    <div class="max-w-[90%]  px-4 mx-auto pb-[100px]">
+        <div class="max-w-full px-5 py-8 mx-auto bg-purple-100 -mb-14">
             <h2 class="text-[#A988F5] font-light text-[18px] sm:text-[20px] md:text-[26px] ">INTRODUCTION</h2>
             <p class="text-[16px] font-light sm:text-[18px] md:text-[22px] text-[#212121]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
                 delectus ducimus nesciunt dignissimos iure hic dolorum quo <br>nostrum iusto cum! Error adipisci
                 voluptates incidunt quam nostrum</p>
         </div>
 
-        <div class="md:grid grid-cols-12 rounded-3xl lg:rounded-[50px] overflow-hidden lg:text-[22px] sm:text-[18px] gap-[2rem] w-[100%] mt-[50px]">
+        <div class="md:grid grid-cols-12  overflow-hidden lg:text-[22px] sm:text-[18px]  w-[100%] mt-[50px]">
             <div class="col-span-4 bg-[white] px-[20px] py-[30px]">
                 <h3 class="font-semibold ml-[40px]">Terms of use</h3>
 
@@ -37,7 +37,7 @@
                     support</a>
             </div>
 
-            <div class="col-span-8 md:px-0 px-4 max-h-[900px] overflow-auto text-[#656565] text-[16px]">
+            <div class="col-span-8  bg-[#e4e3e3] px-4 py-4 max-h-[900px] overflow-auto text-[#656565] text-[16px]">
                 <h2 class="pt-[30px] text-[#5332AF] md:text-[22px] sm:text-[18px] font-semibold">Privacy Policy</h2>
                 <p class="md:text-[18px]  mt-[20px]">The Privacy Policy is intended to clarify the manner
                     in which your personal information is collected and used. Unless otherwise<br>specified, the

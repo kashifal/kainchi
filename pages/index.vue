@@ -9,7 +9,7 @@
     <!-- <PrivacyPolicy /> -->
     <!-- <Blog /> -->
     <!-- <LastUpdate /> -->
-     <SignUp/>
+     <!-- <SignUp/> -->
     <!-- <Dashboard /> -->
     <!-- <Stores /> -->
     <!-- <Categories /> -->

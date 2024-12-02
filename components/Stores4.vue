@@ -6,7 +6,7 @@
 
 
 
-            <div class="md:p-5 md:px-10 p-2 mt-8 bg-white rounded-md shadow">
+            <div class="p-2 mt-8 bg-white rounded-md shadow md:p-5 md:px-10">
                 <!-- Flex Layout for Form and Manage Everything Section -->
                 <div class="flex flex-col gap-3 md:gap-24 md:flex-row-reverse">
                     <!-- Form Section -->
@@ -39,7 +39,7 @@
     </div>
   </form>
 </div>
-                            <div class="flex gap-4 text-center mt-8">
+                            <div class="flex gap-4 mt-8 text-center">
                             <button class="bg-gray-200 text-gray-700 px-4 py-2 hover:bg-gray-300 w-[30%] rounded-full ">Previous</button>
                             <button class="bg-indigo-700 text-white px-6 py-3 hover:bg-indigo-500 w-[60%] rounded-full ">Submit</button>
                         </div>
