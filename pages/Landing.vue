@@ -6,7 +6,6 @@
       <DevelopBusiness />
       <FAQ />
       <Reviews />
-      <MoreInfo />
-      <Partners />
+     
     </div>
   </template>
