@@ -1,6 +1,8 @@
 <template lang="">
-    <div>
+    <div class="bg-[#EBEBEB] text-[#212121]">
+        <Header />              
         <LastUpdateContent />
+        <Footer />
     </div>
 </template>
 <script>

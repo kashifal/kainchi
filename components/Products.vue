@@ -1,6 +1,4 @@
 <template lang="">
-    
-
 <div class="flex xl:flex-row flex-col gap-5">
   <!-- Main Container -->
   <div class="w-full max-w-full bg-white shadow-lg rounded-lg p-5">

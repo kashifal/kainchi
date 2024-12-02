@@ -1,7 +1,9 @@
 <template lang="">
-    <div>
+    <div class="bg-[#EBEBEB]">
+        <Header />
         <StartFreeHero />
         <StartFreePlan />
+        <Footer />
     </div>
 </template>
 <script>
