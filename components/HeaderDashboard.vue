@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="max-w-[85rem] fixed top-0 z-[4] w-full mx-auto shadow-md px-4 sm:px-8 py-4 flex rounded-[30px] bg-white/5 shadow-[#0000004D]/10 backdrop-blur-[100px] items-center gap-2 justify-between">
+  <div class=" mx-auto fixed top-0 z-[4] w-full mx-auto shadow-md px-4 sm:px-8 py-4 flex rounded-[30px] bg-white/5 shadow-[#0000004D]/10 backdrop-blur-[100px] items-center gap-2 justify-between">
     <div class="flex items-center gap-2">
     <button @click="$emit('update:modelValue', !modelValue)" class="xl:hidden p-2 rounded-lg hover:bg-white/10">
       <svg class="size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -38,7 +38,7 @@
           <div class="size-2 bg-[#FF4444] rounded-full absolute top-[2px] translate-x-1/2 -translate-y-1/2 right-[2px]"></div>
         </div>
       </div>
-      <div v-if="showNotifications" class="absolute w-full sm:w-auto right-0 top-16 z-50">
+      <div v-if="showNotifications" class="absolute w-full sm:w-auto right-0 top-20 z-50">
         <div class="sm:w-80 w-[100%] bg-gray-100 rounded-3xl shadow-lg p-4">
           <!-- Notifications Header -->
           <h2 class="text-lg font-semibold py-3 bg-white   -mt-4 w-[112%] -ml-4 shadow-2xl shadow-neutral-300 text-center p-2 rounded-full text-gray-800 mb-4">Notifications</h2>
@@ -147,7 +147,7 @@
 
   <Transition name="notification">
     <div v-if="showToast" 
-         class="fixed bottom-4 right-4 w-full max-w-sm p-4 bg-white rounded-2xl shadow-lg transform-gpu animate-notification"
+         class="fixed bottom-4 z-[9999999999999999999999999999999999999999999999999999999999999999999999] right-4 w-full max-w-sm p-4 bg-white rounded-2xl shadow-lg transform-gpu animate-notification"
          @click="dismissNotification">
       <div class="flex items-center">
         <div class="w-8 h-8 flex items-center justify-center bg-purple-100 text-purple-600 rounded-full">

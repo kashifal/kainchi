@@ -1,94 +1,271 @@
 <template lang="">
-     <div class="w-full max-w-6xl bg-white shadow-lg rounded-lg overflow-hidden">
-    <!-- Header Navigation -->
-    <div class="px-6 py-4 border-b">
-      <nav class="text-sm text-gray-600">
-        <span class="hover:underline cursor-pointer">Dashboard</span>
-        <span class="mx-2">></span>
-        <span class="hover:underline cursor-pointer">Categories</span>
-        <span class="mx-2">></span>
-        <span class="font-semibold text-gray-800">New</span>
-      </nav>
+   
+  <main class="flex-1">
+    <h1 class="text-2xl xl:text-[36px] mr-7 mb-5 xl:mb-0 font-semibold">Categories</h1>
+    
+        <div class="md:p-5 md:px-10 py-10 px-4 mt-8 bg-white rounded-xl md:rounded-3xl shadow">
+         
+            <!-- Flex Layout for Form and Manage Everything Section -->
+            <div class="flex flex-col-reverse  pb-10  gap-3 pt-5 text-[#212121] md:gap-20 md:flex-row-reverse">
+                <!-- Form Section -->
+                <div class="flex-1">
+                    <form>
+                        <h2 class="text-lg xl:text-[26px] font-semibold">Categories and subcategories</h2>
+                      <div class=" mt-10">
+                        <h4 class="text-sm text-[#656565]">What woud you creat ?</h4>
+                        <div class="flex items-center mt-8 gap-8 flex-wrap">
+                          <div class="flex itemsc-enter gap-3">
+<label class="relative inline-flex items-center cursor-pointer">
+  <input type="checkbox" checked value="" class="sr-only peer">
+  <div class="group peer ring-0 bg-[#FBFBFB] rounded-full outline-none duration-300 after:duration-300 w-[39px] h-[21px] shadow-md peer-checked:bg-[#A988F5] peer-focus:outline-none after:content-[''] after:rounded-full after:absolute after:bg-[#3A0CA3]  after:outline-none after:h-[17px] after:w-[17px] after:top-[2px] after:left-[2px] after:-rotate-180 after:flex after:justify-center after:items-center after:text-[10px] peer-checked:after:translate-x-[18px] peer-checked:after:content-[''] peer-hover:after:scale-95 peer-checked:after:rotate-0 peer-checked:bg-[#A988F5]">
+  </div>
+</label>
+                            <h5 class="text-[#656565] text-sm">Categorie</h5>
+                          </div>
+                          <div class="flex itemsc-enter gap-3">
+<label class="relative inline-flex items-center cursor-pointer">
+  <input type="checkbox" value="" class="sr-only peer">
+  <div class="group peer ring-0 bg-[#FBFBFB] rounded-full outline-none duration-300 after:duration-300 w-[39px] h-[21px] shadow-md peer-checked:bg-[#A988F5] peer-focus:outline-none after:content-[''] after:rounded-full after:absolute after:bg-[#3A0CA3]  after:outline-none after:h-[17px] after:w-[17px] after:top-[2px] after:left-[2px] after:-rotate-180 after:flex after:justify-center after:items-center after:text-[10px] peer-checked:after:translate-x-[18px] peer-checked:after:content-[''] peer-hover:after:scale-95 peer-checked:after:rotate-0 peer-checked:bg-[#A988F5]">
+  </div>
+</label>
+                            <h5 class="text-[#656565] text-sm">Subcategorie</h5>
+                          </div>
+                        </div>
+                      </div>
+
+                        <div class="space-y-4 mt-10">
+                            <div>
+                                <label
+                                    class="block  font-semibold text-[#656565] text-[14px] tracking-wider">Name</label>
+                                <input type="text"
+                                    class="w-full px-4 py-4 bg-[#DBDBDB] shadow-[0px_0px_6px_#0000001A] mt-2 blur-[8px] brightness-[-5px] border rounded-md border-[#DBDBDB]  mt-[6px]">
+                                
+                            </div>
+                            <div>
+                                <label
+                                    class="block  font-semibold text-[#656565] text-[14px] tracking-wider">Keywords</label>
+                                <input type="text"
+                                    class="w-full px-4 py-4 bg-[#DBDBDB] shadow-[0px_0px_6px_#0000001A] mt-2 blur-[8px] brightness-[-5px] border rounded-md border-[#DBDBDB]  mt-[6px]">
+                                
+                            </div>
+                            <div>
+                                <label
+                                    class="block  font-semibold text-[#656565] text-[14px] tracking-wider">Keywords</label>
+                                <input type="text"
+                                    class="w-full px-4 py-4 bg-[#DBDBDB] shadow-[0px_0px_6px_#0000001A] mt-2 blur-[8px] brightness-[-5px] border rounded-md border-[#DBDBDB]  mt-[6px]">
+                                
+                            </div>
+                            <div class="flex items-start flex-wrpa gap-4">
+                              <span class="bg-[#A988F5] rounded-full px-5 py-[3px] text-white text-sm">Note</span>
+                              <p class="text-sm text-[#656565]">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</p>
+                            </div>
+                        </div>
+                        <button type="submit "
+                            class="mt-6 bg-[#3A0CA3] text-white px-6 py-3.5 rounded-full hover:bg-[#3A0CA3] w-[100%]">Create</button>
+                    </form>
+                </div>
+
+                <!-- Manage Everything Section -->
+                <div class="flex-1 flex-col flex justify-between">
+                    <div class="w-[100%] flex flex-col items-center mt-10 md:mt-[170px]">
+                        <label for="file-upload" class="cursor-pointer group">
+                            <div class="x border-gray-300 rounded-lg p-8 text-center hover:border-[#3A0CA3] transition-colors">
+                                <svg class="size-14 text-gray-400 group-hover:text-[#3A0CA3] mx-auto mb-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M5 3h13a3 3 0 0 1 3 3v13a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3m0 1a2 2 0 0 0-2 2v11.59l4.29-4.3l2.5 2.5l5-5L20 16V6a2 2 0 0 0-2-2zm4.79 13.21l-2.5-2.5L3 19a2 2 0 0 0 2 2h13a2 2 0 0 0 2-2v-1.59l-5.21-5.2zM7.5 6A2.5 2.5 0 0 1 10 8.5A2.5 2.5 0 0 1 7.5 11A2.5 2.5 0 0 1 5 8.5A2.5 2.5 0 0 1 7.5 6m0 1A1.5 1.5 0 0 0 6 8.5A1.5 1.5 0 0 0 7.5 10A1.5 1.5 0 0 0 9 8.5A1.5 1.5 0 0 0 7.5 7"/></svg>
+                               
+                            </div>
+                            <input id="file-upload" type="file" class="hidden" @change="handleFileUpload" multiple accept="image/*">
+                        </label>
+                        
+                        <!-- File Upload Preview -->
+                        <div v-if="uploadedFiles.length" class="mt-4 w-full">
+                            <div v-for="(file, index) in uploadedFiles" :key="index" 
+                                 class="flex items-center justify-between p-3 bg-gray-50 rounded-lg mb-2">
+                                <div class="flex items-center">
+                                    <svg class="w-6 h-6 text-gray-400 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                    </svg>
+                                    <span class="text-sm text-gray-700 cursor-pointer" @click="previewFile(file)">{{ file.name }}</span>
+                                </div>
+                                <button @click="confirmRemoveFile(index)" class="text-red-500 hover:text-red-700">
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:mt-[130px] mt-5 md:ml-0  w-full p-5 border-[#DBDBDB] rounded-[20px] border-2 ">
+                        <p class="font-semibold mb-3 text-[1.4rem]">Manage - everything</p>
+                        <p class="text-[14px] text-[#656565]">Invidunt ut labore et dolore magna aliquyam era. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<!-- Add this notification component before closing main tag -->
+<div v-if="showNotification" 
+   class="fixed bottom-5 right-5 bg-white shadow-lg rounded-lg p-4 flex items-center space-x-3 transition-all duration-300"
+   :class="uploadStatus === 'progress' ? 'border-blue-500' : 'border-green-500'"
+   style="border-left: 4px solid">
+<div v-if="uploadStatus === 'progress'" class="flex items-center">
+  <svg class="animate-spin h-5 w-5 text-blue-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+  </svg>
+  <span>Uploading file... {{ uploadProgress }}%</span>
+</div>
+<div v-else class="flex items-center">
+  <svg class="h-5 w-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+  </svg>
+  <span>File uploaded successfully!</span>
+</div>
+<button @click="showNotification = false" class="text-gray-400 hover:text-gray-600">
+  <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+  </svg>
+</button>
+</div>
+
+<!-- File Preview Modal -->
+<div v-if="showFilePreview" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+<div class="bg-white p-5 rounded-lg shadow-lg max-w-lg w-full">
+  <button @click="showFilePreview = false" class="text-gray-400 hover:text-gray-600 float-right">
+    <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+      <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+    </svg>
+  </button>
+  <div v-if="previewFileType === 'image'">
+    <img :src="previewFileContent" alt="File Preview" class="w-full h-auto" />
+  </div>
+  <div v-else>
+    <p class="text-gray-700">Preview not available for this file type.</p>
+  </div>
+</div>
+</div>
+
+<!-- Delete Confirmation Modal -->
+<div v-if="showDeleteConfirm" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+<div class="bg-white rounded-lg p-6 w-[400px] shadow-xl">
+  <div v-if="deleteStatus === 'confirm'">
+    <div class="text-center mb-4">
+      <svg class="w-16 h-16 text-red-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+      </svg>
     </div>
-
-    <!-- Content Section -->
-    <div class="flex flex-col md:flex-row">
-      <!-- Left Section -->
-      <div class="w-full md:w-2/3 p-8">
-        <div class="flex flex-col items-center justify-center h-64 bg-gray-100 rounded-lg">
-          <div class="bg-gray-300 p-10 rounded-full">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3 7h18M3 12h18m-9 5h9"></path>
-            </svg>
-          </div>
-        </div>
-        <div class="mt-8 border-2 rounded-2xl p-2">
-          <h2 class="text-2xl font-semibold text-gray-800">Understanding various Categories in Kain'chi</h2>
-          <p class="mt-2 text-sm text-gray-600 leading-relaxed">
-            Fusce at nisi eget dolor rhoncus facilisis. Mauris ante nisi, consectetur at luctus et, porta ut dolor. Cras vehicula, mauris nec ultricies efficitur, nulla urna pharetra diam, sit amet eleifend erat orci vitae metus. Nulla eu consectetur ipsum.
-          </p>
-        </div>
-      </div>
-
-      <!-- Right Section -->
-      <div class="w-full md:w-1/3  p-8">
-        <h3 class="text-lg font-semibold text-gray-700">Categories and Subcategories</h3>
-        <div class="mt-4 flex items-center space-x-6">
-          <!-- Radio Buttons -->
-          <div class="flex items-center">
-           <div class="flex items-center justify-center bg-gray-100">
-  <label for="toggle" class="relative cursor-pointer">
-    <input type="checkbox" id="toggle" class="sr-only peer" />
-    <div class="w-11 h-6 bg-gray-300 rounded-full peer-checked:bg-indigo-700 peer-focus:ring-2 peer-focus:ring-indigo-300 transition-all"></div>
-    <div
-      class="w-5 h-5 bg-white rounded-full shadow-md absolute top-0.5 left-0.5 peer-checked:translate-x-6 transition-all"
-    ></div>
-  </label>
-</div>
-            <label for="category" class="ml-1 text-sm text-gray-700">Category</label>
-          </div>
-          <div class="flex items-center">
-           <div class="flex items-center justify-center bg-gray-100">
-  <label for="tooggle" class="relative cursor-pointer">
-    <input type="checkbox" id="tooggle" class="sr-only peer" />
-    <div class="w-11 h-6 bg-gray-300 rounded-full peer-checked:bg-indigo-700 peer-focus:ring-2 peer-focus:ring-indigo-300 transition-all"></div>
-    <div
-      class="w-5 h-5 bg-white rounded-full shadow-md absolute top-0.5 left-0.5 peer-checked:translate-x-6 transition-all"
-    ></div>
-  </label>
-</div>
-            <label for="subcategory" class="ml-2 text-sm text-gray-700">Subcategory</label>
-          </div>
-        </div>
-
-        <!-- Form -->
-        <form class="mt-6 space-y-4">
-          <div>
-            <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
-            <input type="text" id="name" name="name" class="mt-1 py-2 bg-gray-100 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500">
-          </div>
-          <div>
-            <label for="keywords" class="block text-sm font-medium text-gray-700">Keywords</label>
-            <input type="text" id="keywords" name="keywords" class="mt-1 py-2 bg-gray-100 bg-gray-100block w-full border border-gray-300 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500">
-          </div>
-          <div>
-            <label for="additional-keywords" class="block text-sm font-medium text-gray-700">Additional Keywords</label>
-            <input type="text" id="additional-keywords" name="additional-keywords" class="mt-1 block w-full  py-2 bg-gray-100 border border-gray-300 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500">
-          </div>
-          <p class="text-xs text-gray-500">Note: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam nonummy.</p>
-          <button type="submit" class="w-full py-2 bg-indigo-700 text-white rounded-full shadow-md hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-1">
-            Create
-          </button>
-        </form>
-      </div>
+    <h3 class="text-xl font-bold text-center mb-4">Delete File</h3>
+    <p class="text-gray-600 text-center mb-6">Are you sure you want to delete this file? This action cannot be undone.</p>
+    <div class="flex justify-center space-x-4">
+      <button @click="cancelDelete" class="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition-colors">
+        Cancel
+      </button>
+      <button @click="confirmDelete" class="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors">
+        Delete
+      </button>
     </div>
   </div>
+
+  <div v-if="deleteStatus === 'progress'" class="text-center">
+    <div class="mb-4">
+      <svg class="animate-spin h-12 w-12 text-red-500 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+      </svg>
+    </div>
+    <p class="text-gray-600">Deleting file...</p>
+  </div>
+
+  <div v-if="deleteStatus === 'success'" class="text-center">
+    <div class="mb-4">
+      <svg class="h-12 w-12 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+      </svg>
+    </div>
+    <p class="text-gray-600">File deleted successfully!</p>
+  </div>
+</div>
+</div>
 </template>
 <script>
 export default {
-    
+data() {
+    return {
+        uploadedFiles: [],
+        showNotification: false,
+        uploadStatus: 'progress', // 'progress' or 'success'
+        uploadProgress: 0,
+        showFilePreview: false,
+        previewFileContent: '',
+        previewFileType: '',
+        showDeleteConfirm: false,
+        deleteStatus: 'confirm', // 'confirm', 'progress', 'success'
+        fileToDeleteIndex: null
+    }
+},
+methods: {
+    async handleFileUpload(event) {
+        const files = Array.from(event.target.files);
+        this.showNotification = true;
+        this.uploadStatus = 'progress';
+        
+        // Simulate upload progress
+        for (let i = 0; i <= 100; i += 10) {
+            this.uploadProgress = i;
+            await new Promise(resolve => setTimeout(resolve, 200));
+        }
+        
+        this.uploadedFiles.push(...files);
+        this.uploadStatus = 'success';
+        
+        // Hide notification after 3 seconds
+        setTimeout(() => {
+            this.showNotification = false;
+            this.uploadProgress = 0;
+        }, 3000);
+    },
+    confirmRemoveFile(index) {
+        this.showDeleteConfirm = true;
+        this.deleteStatus = 'confirm';
+        this.fileToDeleteIndex = index;
+    },
+    async confirmDelete() {
+        this.deleteStatus = 'progress';
+        
+        // Simulate delete progress
+        await new Promise(resolve => setTimeout(resolve, 1500));
+        
+        this.removeFile(this.fileToDeleteIndex);
+        this.deleteStatus = 'success';
+        
+        // Close modal after showing success
+        setTimeout(() => {
+            this.showDeleteConfirm = false;
+            this.deleteStatus = 'confirm';
+            this.fileToDeleteIndex = null;
+        }, 1500);
+    },
+    cancelDelete() {
+        this.showDeleteConfirm = false;
+        this.deleteStatus = 'confirm';
+        this.fileToDeleteIndex = null;
+    },
+    removeFile(index) {
+        this.uploadedFiles.splice(index, 1);
+    },
+    previewFile(file) {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+            this.previewFileContent = e.target.result;
+            this.previewFileType = file.type.startsWith('image') ? 'image' : 'other';
+            this.showFilePreview = true;
+        };
+        reader.readAsDataURL(file);
+    }
+}
 }
 </script>
 <style lang="">
-    
+
 </style>
