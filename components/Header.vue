@@ -1,5 +1,5 @@
 <template>
-    <header class="relative z-[4]  py-2">
+    <header class="relative z-[4]   py-2">
       <navbar class="mt-[100px]">
         <nav class="mx-auto max-w-7xl py-4 flex items-center justify-between px-4">
           <div class="logo flex items-center gap-2">
@@ -7,6 +7,7 @@
             <div class="md:hidden cursor-pointer block" @click="toggleDrawer">
               <svg
                 class="size-6"
+                :class="isLandingPage ? 'text-white' : 'text-black'"
                 xmlns="http://www.w3.org/2000/svg"
                 width="1em"
                 height="1em"
@@ -22,22 +23,47 @@
                 />
               </svg>
             </div>
-            <h1 class="text-[1.5rem] font-bold">Kainchi</h1>
+            <h1 class="text-[1.5rem] cursor-pointer font-bold" :class="isLandingPage ? 'text-white' : 'text-black'" @click="navigateTo('/')">Kainchi</h1>
           </div>
   
           <!-- Desktop Links -->
-          <div class="gap-5 hidden lg:flex justify-around text-[12px]">
-            <a href="./#" class="active-link border-b w-fit py-1 border-black">ACCUEIL</a>
-            <a href="./#" class="link hover:active-link border-b py-1 w-fit border-transparent hover:border-black">A PROPOS</a>
-            <a href="./#" class="link hover:active-link border-b py-1 w-fit border-transparent hover:border-black">EXPERTISE</a>
-            <a href="./#" class="link hover:active-link border-b py-1 w-fit border-transparent hover:border-black">MARQUES & PRODUITS</a>
-            <a href="./#" class="link hover:active-link border-b py-1 w-fit border-transparent hover:border-black">MARQUE PRIVEE</a>
-            <a href="./#" class="link hover:active-link border-b py-1 w-fit border-transparent hover:border-black">CONTACT</a>
+          <div class="gap-5 hidden lg:flex justify-around text-[12px]" :class="isLandingPage ? 'text-white' : 'text-black'">
+            <a 
+              href="./#" 
+              class="active-link border-b w-fit py-1"
+              :class="isLandingPage ? 'border-white' : 'border-black'"
+            >ACCUEIL</a>
+            <a 
+              href="./#" 
+              class="link hover:active-link border-b py-1 w-fit border-transparent"
+              :class="{'hover:border-white': isLandingPage, 'hover:border-black': !isLandingPage}"
+            >A PROPOS</a>
+            <a 
+              href="./#" 
+              class="link hover:active-link border-b py-1 w-fit border-transparent"
+              :class="{'hover:border-white': isLandingPage, 'hover:border-black': !isLandingPage}"
+            >EXPERTISE</a>
+            <a 
+              href="./#" 
+              class="link hover:active-link border-b py-1 w-fit border-transparent"
+              :class="{'hover:border-white': isLandingPage, 'hover:border-black': !isLandingPage}"
+            >MARQUES & PRODUITS</a>
+            <a 
+              href="./#" 
+              class="link hover:active-link border-b py-1 w-fit border-transparent"
+              :class="{'hover:border-white': isLandingPage, 'hover:border-black': !isLandingPage}"
+            >MARQUE PRIVEE</a>
+            <a 
+              href="./#" 
+              class="link hover:active-link border-b py-1 w-fit border-transparent"
+              :class="{'hover:border-white': isLandingPage, 'hover:border-black': !isLandingPage}"
+            >CONTACT</a>
           </div>
   
           <!-- Account -->
           <div
-            class="items-center h-fit text-[#212121] py-1 px-3 flex cursor-pointer justify-center rounded-full border-[1px] border-[#DBDBDB] bg-[#DBDBDB]"
+            class="items-center h-fit py-1 px-3 flex cursor-pointer justify-center rounded-full border-[1px]"
+            :class="isLandingPage ? 'text-white border-white hover:bg-white hover:text-black bg-white/40' : 'text-[#212121] border-[#DBDBDB] bg-[#DBDBDB]'"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -81,12 +107,36 @@
             </svg>
           </div>
           <div class="flex w-full text-left flex-col gap-5 px-6 justify-center items-start text-xl h-full">
-            <a href="./#" class="active-link border-b w-fit border-black py-1">ACCUEIL</a>
-            <a href="./#" class="link hover:active-link py-1 border-b w-fit border-transparent hover:border-black">A PROPOS</a>
-            <a href="./#" class="link hover:active-link py-1 border-b w-fit border-transparent hover:border-black">EXPERTISE</a>
-            <a href="./#" class="link hover:active-link py-1 border-b w-fit border-transparent hover:border-black">MARQUES & PRODUITS</a>
-            <a href="./#" class="link hover:active-link py-1 border-b w-fit border-transparent hover:border-black">MARQUE PRIVEE</a>
-            <a href="./#" class="link hover:active-link py-1 border-b w-fit border-transparent hover:border-black">CONTACT</a>
+            <a 
+              href="./#" 
+              class="active-link border-b w-fit py-1"
+              :class="isLandingPage ? 'border-white' : 'border-black'"
+            >ACCUEIL</a>
+            <a 
+              href="./#" 
+              class="link hover:active-link py-1 border-b w-fit border-transparent"
+              :class="{'hover:border-white': isLandingPage, 'hover:border-black': !isLandingPage}"
+            >A PROPOS</a>
+            <a 
+              href="./#" 
+              class="link hover:active-link py-1 border-b w-fit border-transparent"
+              :class="{'hover:border-white': isLandingPage, 'hover:border-black': !isLandingPage}"
+            >EXPERTISE</a>
+            <a 
+              href="./#" 
+              class="link hover:active-link py-1 border-b w-fit border-transparent"
+              :class="{'hover:border-white': isLandingPage, 'hover:border-black': !isLandingPage}"
+            >MARQUES & PRODUITS</a>
+            <a 
+              href="./#" 
+              class="link hover:active-link py-1 border-b w-fit border-transparent"
+              :class="{'hover:border-white': isLandingPage, 'hover:border-black': !isLandingPage}"
+            >MARQUE PRIVEE</a>
+            <a 
+              href="./#" 
+              class="link hover:active-link py-1 border-b w-fit border-transparent"
+              :class="{'hover:border-white': isLandingPage, 'hover:border-black': !isLandingPage}"
+            >CONTACT</a>
           </div>
         </div>
       </transition>
@@ -95,9 +145,14 @@
   
   
   <script setup>
-  import { ref } from "vue";
+  import { ref, computed } from "vue";
+  import { useRoute } from 'vue-router';
   
+  const route = useRoute();
   const drawerOpen = ref(false);
+  
+  // Computed property to determine if we're on the landing page
+  const isLandingPage = computed(() => route.path === '/' || route.path === '');
   
   function toggleDrawer() {
     drawerOpen.value = !drawerOpen.value;

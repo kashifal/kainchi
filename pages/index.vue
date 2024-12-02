@@ -1,18 +1,15 @@
 <template>
   <div class="bg-[#EBEBEB]">
-    <!-- <Header /> -->
-    <!-- <Landing /> -->
+    <Header />
+    <Landing />
     <!-- <Download /> -->
     <!-- <AboutUs />  -->
     <!-- <StartFree /> -->
-    <!-- <Test /> -->
     <!-- <Company /> -->
-    <PrivacyPolicy />
+    <!-- <PrivacyPolicy /> -->
     <!-- <Blog /> -->
     <!-- <LastUpdate /> -->
-    <!-- <Email /> -->
-    <!-- <Password /> -->
-    <!-- <Username /> -->
+     <!-- <SignUp/> -->
     <!-- <Dashboard /> -->
     <!-- <Stores /> -->
     <!-- <Categories /> -->
@@ -21,7 +18,7 @@
     <!-- <Login /> -->
     <!-- <MoreInfo /> -->
     <!-- <Partners /> -->
-    <!-- <Footer /> -->
+    <Footer />
   </div>
 </template>
 
@@ -36,14 +33,11 @@ import PrivacyPolicy from './PrivacyPolicy.vue'
 import TermsOfUse from './TermsofUse.vue'
 import Blog from './Blog.vue'
 import LastUpdate from './LastUpdate.vue'
-import Email from './Email.vue'
-import Password from './Password.vue'
-import Username from './Username.vue'
 import Dashboard from './Dashboard.vue'
 import Stores from './Stores.vue'
 import Categories from './Categories.vue'
 import StaffAccount from './StaffAccount.vue'
 import Products from './Products.vue'
 import Login from './Login.vue'
-import Test from './Test.vue'
+import SignUp from './SignUp.vue'
 </script>

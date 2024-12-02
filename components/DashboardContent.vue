@@ -1,5 +1,5 @@
 <template lang="">
-     <main class="flex-1 pl-[19rem] px-8 pt-36 pb-20 rounded-lg bg-[#E3E3E5] ">
+     <main class="flex-1 xl:pl-[19rem] h-full px-8 pt-36 pb-20 rounded-lg bg-[#E3E3E5] ">
             <div class="mb-8">
                 <h2 class="text-[1.5rem] font-bold text-gray-800">Hello Webmaster, Welcome to Kain'chi</h2>
                 <div class="flex bg-[#E9E9EE] py-[6px] pl-[10px] rounded-lg mt-[20px]">
