@@ -1,10 +1,10 @@
 <template lang="">
-    <section class="max-w-7xl z-[4] relative py-20 text-[#212121] mx-auto px-4">
+    <section class="max-w-7xl z-[4] relative py-20 text-[#212121] mx-auto px-4 xl:px-8">
         <div class="absolute bg-[#D882D9] z-[1] bg-opacity-60 blur-[80px] rounded-md w-60 h-[100vh] top-40 left-0"></div>
 
         <div class="flex flex-wrap gap-4 items-center justify-between">
             <p class=" sm:text-[18px]">Extend your free trial for $1/mo on your first 3 months when billed monthly</p>
-            <div class="border whitespace-nowrap border-[rgb(58,12,163)] overflow-hidden rounded-full p-[2px] flex items-center gap-1">
+            <div class="border font-light whitespace-nowrap border-[rgb(58,12,163)] overflow-hidden rounded-full p-[2px] flex items-center gap-1">
                 <button class="sm:text-[18px] hover:bg-[#3A0CA3] hover:text-white rounded-full px-4 py-2 text-center h-full">Monthly</button>
                 <button class="sm:text-[18px] bg-[#3A0CA3] text-white rounded-full px-4 py-2 text-center h-full">Yearly ( save 40% )</button>
             </div>
@@ -22,10 +22,10 @@
        
        <div class="p-6">
            <p class="text-sm mb-2 font-light">Everything you need to create your store, ship<br> products, and process payments</p>
-           <div class="text-xl mx-4 border-b-2 border-gray-200 font-bold mb-4 mt-[30px] font-light  pb-[10px]">$ <span class="text-[3rem] pt-[10px] font-bold "> 1</span> per year</div>
-           <p class="font-medium px-4">What's Include</p>
+           <div class="text-xl mx-4 border-b-2 pb-4 border-gray-200 font-bold mb-4 mt-[30px] font-light">$ <span class="text-[3rem] pt-[10px] font-bold "> 1</span> per year</div>
+           <p class="font-medium px-4 text-lg">What's Include</p>
            
-           <ul class="space-y-2 mt-[10px] px-4">
+           <ul class="space-y-2 mt-[13px]  px-4">
                <li class="flex gap-2 items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4l8-8z"/></svg>
                    Upto 300K monthy sales
@@ -40,7 +40,7 @@
                </li>
            </ul>
 
-           <button class="w-[100%] hover:bg-[#3A0CA3] hover:text-white py-[14px] text-center rounded-full bg-[#ECECEC] mt-[20px]">CHOOSE PLAN</button>
+           <button class="w-[100%] font-light hover:bg-[#3A0CA3] hover:text-white py-[14px] text-center rounded-full bg-[#ECECEC] mt-[20px]">CHOOSE PLAN</button>
        </div>
    </div>
 
@@ -57,10 +57,10 @@
        
        <div class="p-6">
            <p class="text-sm mb-2 font-light">Everything you need to create your store, ship<br> products, and process payments</p>
-           <div class="text-xl mx-4 border-b-2 border-gray-200 font-bold mb-4 mt-[30px] font-light  pb-[10px]">$ <span class="text-[3rem] pt-[10px] font-bold "> 1</span> per year</div>
-           <p class="font-medium px-4">What's Include</p>
+           <div class="text-xl mx-4 border-b-2 pb-4 border-gray-200 font-bold mb-4 mt-[30px] font-light">$ <span class="text-[3rem] pt-[10px] font-bold "> 1</span> per year</div>
+           <p class="font-medium px-4 text-lg">What's Include</p>
            
-           <ul class="space-y-2 mt-[10px] px-4">
+           <ul class="space-y-2 mt-[13px]  px-4">
                <li class="flex gap-2 items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4l8-8z"/></svg>
                    Upto 300K monthy sales
@@ -75,7 +75,7 @@
                </li>
            </ul>
 
-           <button class="w-[100%] hover:bg-[#3A0CA3] hover:text-white py-[14px] text-center rounded-full bg-[#ECECEC] mt-[20px]">CHOOSE PLAN</button>
+           <button class="w-[100%] font-light hover:bg-[#3A0CA3] hover:text-white py-[14px] text-center rounded-full bg-[#ECECEC] mt-[20px]">CHOOSE PLAN</button>
        </div>
    </div>
 
@@ -91,10 +91,10 @@
        
        <div class="p-6">
            <p class="text-sm mb-2 font-light">Everything you need to create your store, ship<br> products, and process payments</p>
-           <div class="text-xl mx-4 border-b-2 border-gray-200 font-bold mb-4 mt-[30px] font-light  pb-[10px]">$ <span class="text-[3rem] pt-[10px] font-bold "> 1</span> per year</div>
-           <p class="font-medium px-4">What's Include</p>
+           <div class="text-xl mx-4 border-b-2 pb-4 border-gray-200 font-bold mb-4 mt-[30px] font-light">$ <span class="text-[3rem] pt-[10px] font-bold "> 1</span> per year</div>
+           <p class="font-medium px-4 text-lg">What's Include</p>
            
-           <ul class="space-y-2 mt-[10px] px-4">
+           <ul class="space-y-2 mt-[13px]  px-4">
                <li class="flex gap-2 items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4l8-8z"/></svg>
                    Upto 300K monthy sales
@@ -109,7 +109,7 @@
                </li>
            </ul>
 
-           <button class="w-[100%] hover:bg-[#3A0CA3] hover:text-white py-[14px] text-center rounded-full bg-[#ECECEC] mt-[20px]">CHOOSE PLAN</button>
+           <button class="w-[100%] font-light hover:bg-[#3A0CA3] hover:text-white py-[14px] text-center rounded-full bg-[#ECECEC] mt-[20px]">CHOOSE PLAN</button>
        </div>
    </div>
 </div>
@@ -123,17 +123,17 @@
 </div>
 
 
-<div class="relative z-10 p-5 sm:p-10 text-white">
+<div class="relative z-10 p-5 sm:px-10 py-14 text-white">
     
-    <h1 class="sm:text-5xl text-3xl md:text-5xl font-semibold leading-snug mb-6">
+    <h1 class="sm:text-5xl text-3xl lg:text-[56px] font-semibold leading-snug mb-6">
         LOOKING<br> FOR MORE ?
     </h1>
-    <p class="md:text-lg text-sm mb-8 leading-[20px]">
+    <p class="md:text-lg lg:text-[26px] text-sm mb-8 font-light">
         Get exclusive access to Kainchi's brightest <br> with our VIP services.
     </p>
     
     
-    <a href="#" class="inline-block whitespace-nowrap bg-[#212121] text-[#fffff] hover:bg-opacity-80 font-semibold py-2.5 md:py-[20px] px-6 rounded-full">
+    <a href="#" class="inline-block whitespace-nowrap bg-[#212121] text-[#fffff] hover:bg-[#111111] font-semibold py-2.5 md:py-[20px] px-6 rounded-full">
         Contact our VIP team
     </a>
 </div>
@@ -152,16 +152,18 @@
                 <h1 class="sm:text-5xl text-4xl  font-semibold text-[#3E2CA3]  leading-tight">
                     MORE<br>INFORMATIONS
                 </h1>
-                <p class="text-[13px] text-gray-700 ">
+                <p class="text-[13px] md:text-[22px] font-light mt-2 ">
                     Learn more about what you can do on Kainchi.
                 </p>
             </div>
             
             <div class="flex gap-2 lg:mt-0 mt-5 text-[#3E2CA3]">
-                          <div class="size-[50px] -rotate-90 rounded-full flex items-center justify-center cursor-pointer hover:bg-[#3E2CA3] hover:text-white border border-[#3E2CA3] ">
+                          <div @click="prevSlide" 
+                               class="size-[50px] text-[#BEBEBE] -rotate-90 rounded-full flex items-center justify-center cursor-pointer hover:bg-[#BEBEBE] hover:text-white border border-[#BEBEBE] ">
                             <svg class="size-8" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m17 14l-5-5l-5 5"/></svg>
                         </div>
-                          <div class="size-[50px] rotate-90 rounded-full flex items-center justify-center cursor-pointer hover:bg-[#3E2CA3] hover:text-white border border-[#3E2CA3] ">
+                          <div @click="nextSlide"
+                               class="size-[50px] rotate-90 rounded-full flex items-center justify-center cursor-pointer hover:bg-[#3E2CA3] hover:text-white border border-[#3E2CA3] ">
                             <svg class="size-8" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m17 14l-5-5l-5 5"/></svg>
                        
                         </div>
@@ -169,9 +171,9 @@
         </div>
     
         
-        <div class="grid lg:col-span-7   w-full  sm:grid-cols-2 lg:grid-cols-3 gap-3 xl:gap-6">
-            
-            <div v-for="card in infoCards" :key="card.title" 
+        <div class="grid lg:col-span-7   w-full  sm:grid-cols-2 lg:grid-cols-3 gap-3 xl:gap-6 overflow-hidden">
+          <transition-group name="carousel">
+            <div v-for="card in visibleCards" :key="card.title" 
                  class="border-2 border-[#3E2CA3] px-4 py-6 rounded-xl bg-white shadow-lg flex flex-col justify-between">
               <div class="items-center mb-4">
                 <div class="bg-[#A988F5] text-white flex items-center justify-center rounded-full size-[46px]">
@@ -190,6 +192,7 @@
                 </svg>
               </div>
             </div>
+          </transition-group>
         </div>
     </section>
 </div>
@@ -198,6 +201,7 @@
 export default {
   data() {
     return {
+      currentIndex: 0,
       infoCards: [
         {
           title: 'Payment Methods',
@@ -214,11 +218,59 @@ export default {
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae velit ex. elit. Pellentesque vitae velit ex. ipsum dolor sit amet',
           icon: 'M6.5 5A4.5 4.5 0 0 0 2 9.5V11h28V9.5A4.5 4.5 0 0 0 25.5 5zM2 22.5V13h28v9.5a4.5 4.5 0 0 1-4.5 4.5h-19A4.5 4.5 0 0 1 2 22.5M21 19a1 1 0 1 0 0 2h3a1 1 0 1 0 0-2z'
         }
-      ]
+      ],
+      // Number of cards to show based on screen size
+      cardsToShow: {
+        lg: 3,
+        sm: 2,
+        xs: 1
+      }
+    }
+  },
+  computed: {
+    visibleCards() {
+      // Get all cards and create circular array
+      const cards = [...this.infoCards];
+      const startIndex = this.currentIndex;
+      const visibleCount = this.getVisibleCount();
+      
+      // Return slice of cards based on current index
+      return cards.concat(cards).slice(startIndex, startIndex + visibleCount);
+    }
+  },
+  methods: {
+    getVisibleCount() {
+      // Return number of cards based on screen width
+      if (window.innerWidth >= 1024) return this.cardsToShow.lg;
+      if (window.innerWidth >= 640) return this.cardsToShow.sm;
+      return this.cardsToShow.xs;
+    },
+    prevSlide() {
+      this.currentIndex = (this.currentIndex - 1 + this.infoCards.length) % this.infoCards.length;
+    },
+    nextSlide() {
+      this.currentIndex = (this.currentIndex + 1) % this.infoCards.length;
     }
   }
 }
 </script>
-<style lang="">
+<style scoped>
+.carousel-enter-active,
+.carousel-leave-active {
+  transition: all 0.5s ease;
+}
 
+.carousel-enter-from {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.carousel-leave-to {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.carousel-move {
+  transition: transform 0.5s ease;
+}
 </style>

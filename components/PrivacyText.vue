@@ -1,7 +1,7 @@
 <template lang="">
 <section class=" max-w-[100%]  relative mx-auto z-[9999999999999999999999999999999] ">
-    <div class="max-w-[90%]  px-4 mx-auto pb-[100px]">
-        <div class="max-w-full px-5 py-8 mx-auto bg-purple-100 -mb-14">
+    <div class=" px-4 mx-auto ">
+        <div class="max-w-full px-5 py-20 mx-auto  -mb-14">
             <h2 class="text-[#A988F5] font-light text-[18px] sm:text-[20px] md:text-[26px] ">INTRODUCTION</h2>
             <p class="text-[16px] font-light sm:text-[18px] md:text-[22px] text-[#212121]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
                 delectus ducimus nesciunt dignissimos iure hic dolorum quo <br>nostrum iusto cum! Error adipisci
@@ -37,7 +37,7 @@
                     support</a>
             </div>
 
-            <div class="col-span-8  bg-[#e4e3e3] px-4 py-4 max-h-[900px] overflow-auto text-[#656565] text-[16px]">
+            <div class="col-span-8  bg-[#F4F4F4] px-4 py-4 max-h-[900px] overflow-auto text-[#656565] text-[16px]">
                 <h2 class="pt-[30px] text-[#5332AF] md:text-[22px] sm:text-[18px] font-semibold">Privacy Policy</h2>
                 <p class="md:text-[18px]  mt-[20px]">The Privacy Policy is intended to clarify the manner
                     in which your personal information is collected and used. Unless otherwise<br>specified, the
