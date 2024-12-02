@@ -1,5 +1,5 @@
 <template lang="">
-    <div>
+    <div class="overflow-x-hidden">
         <CompanyHeader />
         <JoinCompany />
         <BenefitsCompany />

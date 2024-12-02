@@ -2,8 +2,9 @@
    <section class="mt-[50px] bg-white rounded-t-[40px] rounded-b-[50px] md:rounded-b-[100px] md:pb-16 pt-24 pb-48 md:pt-16">
         <div class="max-w-7xl px-4 mx-auto grid  gap-[3rem]  md:grid-cols-2">
             <div>
-                <img src="https://images.unsplash.com/photo-1653035975957-4d2bc40e1e96?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YSUyMGxhcHRvcCUyMHdpdGglMjBibGFjayUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"
-                   class="rounded-2xl h-[500px] w-full"  alt="">
+                <img src="https://thumbs.dreamstime.com/b/close-up-laptop-purple-sale-screen-desktop-coffee-cup-plant-window-city-view-online-shopping-money-concept-d-269067150.jpg"
+                   class="rounded-3xl object-left h-[400px] w-full transform" 
+                   style="transform: rotateY(180deg)" alt="">
             </div>
             <div class="md:ml-16">
                 <h2 class="text-2xl text-gray-800 font-bold md:mt-[100px] ">Get Started</h2>

@@ -1,13 +1,13 @@
 <template>
   <div class="bg-[#EBEBEB]">
     <!-- <Header /> -->
-    <Landing />
+    <!-- <Landing /> -->
     <!-- <Download /> -->
     <!-- <AboutUs />  -->
     <!-- <StartFree /> -->
     <!-- <Test /> -->
     <!-- <Company /> -->
-    <!-- <PrivacyPolicy /> -->
+    <PrivacyPolicy />
     <!-- <Blog /> -->
     <!-- <LastUpdate /> -->
     <!-- <Email /> -->

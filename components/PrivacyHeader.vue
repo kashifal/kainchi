@@ -1,19 +1,25 @@
 <template lang="">
-       <section class="bg-[#EBEBEB]">
-        <div class="relative max-w-7xl mx-auto rounded-2xl min-h-[70vh] flex items-center justify-center bg-cover bg-center bg-no-repeat "
-            style="background-image: url('https://images.unsplash.com/photo-1714279239071-bddde20e797b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGElMjBtYW4lMjBzdGFuZCUyMHdpdGglMjBibGFjayUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D');">
+
+    <div class="absolute bg-[#8a26e2] z-[2] bg-opacity-50 blur-[60px] rounded-full size-60 top-0 left-0"></div>
+    <div class="absolute bg-[#8a26e2] z-[2] bg-opacity-50 blur-[60px] rounded-full overflow-hidden right-0 h-screen size-60 top-0 "></div>
+       <section class="p-2 z-[9999999999] relative pt-4 ">
+     
+        <div class="-mb-2 ">
+        <div class="relative  max-w-[90%] mx-auto rounded-3xl min-h-[60vh] flex items-center justify-center bg-cover bg-center bg-no-repeat "
+            style="background-image: url('https://th.bing.com/th/id/R.498bd5400a32c97acef072169131a948?rik=MygYd%2fdNOzgszQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f9%2ff%2f0%2f446959.jpg&ehk=z50NHnUYWUtvv3W0uBPY9eojZ8tblSXFNiFjBbR5YuY%3d&risl=&pid=ImgRaw&r=0');">
 
             <!-- Overlay for darkening the background if needed -->
-            <div class="absolute inset-0 bg-black opacity-50 rounded-2xl"></div>
+            
 
 
-            <div class="relative flex px-4 items-center justify-center h-full">
+            <div class="relative flex items-center justify-center h-full px-4 ">
                 <div class="max-w-2xl mx-auto text-center text-white">
-                    <h1 class="text-4xl md:text-5xl font-semibold md:leading-[70px] uppercase">PRIVACY POLICY</h1>
-                    <p class="mt-4 md:text-[26px] sm:text-[20px] font-light text-[18px] tracking-wider">Learn more about how Kainchi collects and uses data and your rights as a Kainchi user.
+                    <h1 class="text-4xl md:text-[3.5rem] font-extrabold md:leading-[70px] uppercase">PRIVACY POLICY</h1>
+                    <p class="mt-2 text-balance font-extralight text-[20px] tracking-wider">Learn more about how Kainchi collects and uses data and your rights as a Kainchi user.
                     </p>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 </template>
@@ -23,5 +29,6 @@ export default {
 }
 </script>
 <style lang="">
-    
+   
+
 </style>

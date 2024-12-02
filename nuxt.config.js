@@ -4,10 +4,13 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.css"],
   ssr: false,
   target: "static",
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
+  compatibilityDate: "2024-12-01",
 });

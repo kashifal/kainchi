@@ -11,13 +11,13 @@
             </div>
         </button>
         </div>
-        <div class="absolute xl:flex hidden right-0 xl:min-h-[593px] h-full -top-[10%] z-[4]">
+        <div class="absolute xl:flex hidden right-0 xl:min-h-[593px] h-full -top-[9.1%] z-[4]">
             <div class="flex items-center absolute left-[18%] top-[20%] gap-2">
                 <div class="size-[42px] bg-[#480CA8] rounded-full"></div>
                 <div class="size-[42px] bg-[#480CA8] rounded-full"></div>
                 <div class="size-[42px] bg-[#480CA8] rounded-full"></div>
             </div>
-        <!-- <img src="/infoGirl.png" class="h-full object-cover" /> -->
+        <img src="/infoGirl.png" class="h-full object-cover" />
     </div>
     </div>
    
