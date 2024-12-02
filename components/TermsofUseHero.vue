@@ -1,6 +1,6 @@
 <template lang="">
     <section class="bg-[#EBEBEB]">
-        <div class="relative    max-w-7xlBig mx-auto rounded-3xl min-h-[550px] flex items-center justify-center bg-cover bg-center bg-no-repeat "
+        <div class="relative   min-h-[550px] flex items-center justify-center max-w-7xlBig mx-auto px-4 rounded-2xl mt-6 md:rounded-[50px] overflow-hidden h-full  bg-cover bg-center  bg-no-repeat"
             style="background-image: url('https://img.freepik.com/free-vector/woman-reading-business-agreement-special-offer-contract-clipboard-deal-arrangement-terms-use-document-studying-paper-form-vector-isolated-concept-metaphor-illustration_335657-4333.jpg?t=st=1733120425~exp=1733124025~hmac=35d94298073feb8c960a763ccc81b89c2249f29d8c88c476262a8b2417a57e87&w=740');">
 
             <!-- Overlay for darkening the background if needed -->

@@ -5,7 +5,7 @@
        <section class="p-2 z-[9999999999] relative pt-4 ">
      
         <div class="-mb-2 ">
-        <div class="relative   mx-6 rounded-3xl min-h-[550px] flex items-center justify-center bg-cover bg-center bg-no-repeat "
+        <div class="relative  min-h-[550px] flex items-center justify-center max-w-7xlBig mx-auto px-4 rounded-2xl  md:rounded-[50px] overflow-hidden h-full  bg-cover bg-center  bg-no-repeat"
             style="background-image: url('https://th.bing.com/th/id/R.498bd5400a32c97acef072169131a948?rik=MygYd%2fdNOzgszQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f9%2ff%2f0%2f446959.jpg&ehk=z50NHnUYWUtvv3W0uBPY9eojZ8tblSXFNiFjBbR5YuY%3d&risl=&pid=ImgRaw&r=0');">
 
             <!-- Overlay for darkening the background if needed -->
