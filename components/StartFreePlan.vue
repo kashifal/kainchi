@@ -1,5 +1,5 @@
 <template lang="">
-    <section class="max-w-7xl z-[4] relative py-20 text-[#212121] mx-auto px-4 xl:px-8">
+    <section class="   max-w-7xlBig z-[4] relative py-20 text-[#212121] mx-auto px-4 xl:px-8">
         <div class="absolute bg-[#D882D9] z-[1] bg-opacity-60 blur-[80px] rounded-md w-60 h-[100vh] top-40 left-0"></div>
 
         <div class="flex flex-wrap gap-4 items-center justify-between">
@@ -144,7 +144,7 @@
     
    </section>
    <div class="rounded-b-[50px] bg-white">
-   <section class="w-full max-w-7xl mx-auto pt-40 pb-20 px-4  grid lg:grid-cols-12 gap-20 lg:gap-2 xl:gap-10">
+   <section class="w-full    max-w-7xlBig mx-auto pt-40 pb-20 px-4  grid lg:grid-cols-12 gap-20 lg:gap-2 xl:gap-10">
         
         <div class="flex flex-col   justify-between lg:col-span-5">
           

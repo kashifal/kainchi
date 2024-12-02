@@ -2,7 +2,7 @@
    <div class="">
     <section class="  pt-[100px] px-4 border-b-2 pb-12 mb-12">
 
-        <div class="max-w-7xl  mx-auto">
+        <div class="   max-w-7xlBig  mx-auto">
         <h1 class="text-[3rem] text-[#212121]">Topic match for you</h1>
         <div class="flex mt-10  gap-4 flex-wrap ">
             <button class="bg-[black] shadow-2xl text-[white] py-[10px] px-[50px] rounded-full">Design</button>
@@ -23,7 +23,7 @@
 
    
 
-        <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-10 xl:gap-8">
+        <div class="   max-w-7xlBig mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-10 xl:gap-8">
     <div
       v-for="(card, index) in cards"
       :key="index"
@@ -102,6 +102,39 @@ export default {
     data() {
         return {
             cards: [
+                {
+                    image:
+                        "https://img.freepik.com/premium-photo/businessmen-join-hands-with-holograms-business-mobile_64478-1597.jpg?w=740",
+                    title: "The Latest Update of Kainchi App",
+                    description:
+                        "The Privacy Policy is intended to clarify the manner in which your personal information.",
+                    userImage:
+                        "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop",
+                    author: "Hamza Kainchi",
+                    readTime: "5 min Read",
+                },
+                {
+                    image:
+                        "https://img.freepik.com/premium-photo/businessmen-join-hands-with-holograms-business-mobile_64478-1597.jpg?w=740",
+                    title: "Explore Vue.js 3 Features",
+                    description:
+                        "Learn about the exciting new features and improvements in Vue.js 3.",
+                    userImage:
+                        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop",
+                    author: "Jane Doe",
+                    readTime: "4 min Read",
+                },
+                {
+                    image:
+                        "https://img.freepik.com/premium-photo/businessmen-join-hands-with-holograms-business-mobile_64478-1597.jpg?w=740",
+                    title: "Advanced Tailwind Techniques",
+                    description:
+                        "Take your Tailwind CSS skills to the next level with these tips.",
+                    userImage:
+                        "https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=100&h=100&fit=crop",
+                    author: "John Smith",
+                    readTime: "3 min Read",
+                },
                 {
                     image:
                         "https://img.freepik.com/premium-photo/businessmen-join-hands-with-holograms-business-mobile_64478-1597.jpg?w=740",

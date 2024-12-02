@@ -1,7 +1,7 @@
 <template lang="">
     <section class="bg-[#F5F1FE] py-20">
 
-<div class="max-w-7xl px-4 mx-auto grid gap-[3rem] grid-cols-1 md:grid-cols-2">
+<div class="   max-w-7xlBig px-4 mx-auto grid gap-[3rem] grid-cols-1 md:grid-cols-2">
     <div class=" md:ml-28 md:max-w-[60%] lg:max-w-[50%]">
         <div class=" text-[#3E2CA3]">
             <h1 class="text-[3rem]  font-extrabold leading-[55px]">ABOUT <br>

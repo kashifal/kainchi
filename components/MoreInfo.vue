@@ -2,7 +2,7 @@
     <div class="px-4 mb-32 mt-44 relative">
         <div class="absolute bg-[#480CA8] z-[2] bg-opacity-100 blur-[80px] rounded-full size-60 sm:size-72 -top-1/6 sm:left-1/2 sm:-tarnslate-x-1/2"></div>
 
-    <div class="bg-[#480CA8]  z-[2] px-4 md:px-8 flex items-center text-[#F3F7F6] justify-between gap-2 rounded-2xl md:rounded-[50px] relative py-12 md:py-20 max-w-7xl mx-auto">
+    <div class="bg-[#480CA8]  z-[2] px-4 md:px-8 flex items-center text-[#F3F7F6] justify-between gap-2 rounded-2xl md:rounded-[50px] relative py-12 md:py-20    max-w-7xlBig mx-auto">
         <div class="xl:w-1/2 xl:text-left text-center flex flex-col items-center xl:items-start xl:flex-none max-w-2xl xl:max-w-fit xl:mx-0 mx-auto">
         <h1 class="lg:text-[64px] text-[25px] font-bold sm:text-[30px] leading-none md:text-[40px]">FOR MORE INFORMATIONS CONTACT US !</h1>
         <p class="text-sm mt-6 md:mt-10">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet</p>

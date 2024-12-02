@@ -5,7 +5,7 @@
         
         <!-- Main content wrapper -->
         <div class="relative pt-28 mt-5 pb-16 h-full"> <!-- Added padding bottom for copyright bar -->
-            <div class="max-w-7xl mx-4 xl:mx-auto h-full">
+            <div class="   max-w-7xlBig mx-4 xl:mx-auto h-full">
                 <div class="bg-white bg-opacity-70 relative top-2 backdrop-blur-md rounded-t-lg md:rounded-t-[50px] shadow-[0_0_50px_#00000014] h-screen p-6 md:p-10 lg:p-20">
                     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
                         <div v-for="(menu, index) in menus" :key="index" class="h-fit">

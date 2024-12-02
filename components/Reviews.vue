@@ -1,5 +1,5 @@
 <template lang="">
-    <div class="grid gap-8 px-4 mx-auto md:grid-cols-2 max-w-7xl">
+    <div class="grid gap-8 px-4 mx-auto md:grid-cols-2    max-w-7xlBig">
        <div>
            <h1 class="text-[32px] leading-none w-fit items-end sm:text-[42px] lg:text-[64px] 2xl:text-[94px] relative text-[#212121] font-semibold leading-none">Real Reviews<br /> From Real 
            <span class="leading-none xl:-mt-3 flex items-center">Customers

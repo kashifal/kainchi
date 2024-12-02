@@ -1,5 +1,5 @@
 <template lang="html">
-    <div class="bg-[#212121] my-20 rounded-[50px] max-w-7xl mx-auto p-10">
+    <div class="bg-[#212121] my-20 rounded-[50px]    max-w-7xlBig mx-auto p-10">
       <h1 class="text-white text-center text-3xl lg:text-[36px] uppercase font-bold">DISCOVER OUR DEALS BY CATEGORY</h1>
       <div class="mt-28 2xl:max-w-6xl mx-auto gap-x-3 gap-y-14 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         <div
