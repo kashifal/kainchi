@@ -19,6 +19,7 @@
     <MoreInfo />
     <Partners />
     <Footer />
+    <SocialIcons />
   </div>
 </template>
 

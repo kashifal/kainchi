@@ -5,6 +5,8 @@
         <BlogCards />
         <MoreInfo />
         <Footer />
+    <SocialIcons />
+
     </div>
 </template>
 <script>

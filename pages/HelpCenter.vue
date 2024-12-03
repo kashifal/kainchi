@@ -4,6 +4,7 @@
         <HelpCenter />
         <MoreInfo />
         <Footer />
+
     </div>
 </template>
 <script>

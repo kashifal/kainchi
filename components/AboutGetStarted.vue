@@ -1,5 +1,5 @@
 <template lang="">
-   <section class="mt-[50px] bg-white rounded-t-[40px] rounded-b-[50px] md:rounded-b-[100px] md:pb-16 pt-24 pb-48 md:pt-16">
+   <section class="mb-6 bg-white rounded-t-[40px] rounded-b-[50px] md:rounded-b-[100px] md:pb-16 pt-24 pb-48 md:pt-16">
         <div class="   max-w-7xlBig px-4 mx-auto grid  gap-[3rem]  md:grid-cols-2">
             <div>
                 <img src="https://thumbs.dreamstime.com/b/close-up-laptop-purple-sale-screen-desktop-coffee-cup-plant-window-city-view-online-shopping-money-concept-d-269067150.jpg"
