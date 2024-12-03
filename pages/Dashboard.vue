@@ -8,6 +8,7 @@
         <DashboardContent />
         <DashboardFooter />
        </div>
+       
     </div>
 </template>
 <script>

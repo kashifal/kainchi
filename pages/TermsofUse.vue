@@ -5,6 +5,8 @@
         <PrivacyText />
         <MoreInfo />
         <Footer />
+    <SocialIcons />
+
     </div>
 </template>
 <script>

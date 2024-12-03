@@ -6,6 +6,8 @@
         <BenefitsCompany />
         <MoreInfo />
         <Footer />
+    <SocialIcons />
+        
     </div>
 </template>
 <script>

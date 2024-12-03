@@ -3,6 +3,10 @@
         <Header />
        <DownloadHero />
        <AlreadyDownload />
+    <SocialIcons />
+    <MoreInfo />
+<Footer />
+
     </div>
 </template>
 <script>
